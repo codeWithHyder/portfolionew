@@ -258,13 +258,17 @@
   flex-grow: 1;
 }
 
-.wdr22 ,.wdr32,.wdr33{
+.wdr22 ,
+.wdr32,
+.wdr33 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.wdr22 h4,.wdr22 p,.wdr22 .sp1{
+.wdr22 h4,
+.wdr22 p,
+.wdr22 .sp1 {
   margin-left: 20px;
   margin-top: 10px;
   color: white;
@@ -291,7 +295,9 @@
   justify-content: flex-end;
 }
 
-.wdr23 h4,.wdr23 p,.wdr23 .sp1 {
+.wdr23 h4,
+.wdr23 p,
+.wdr23 .sp1 {
   margin-left: 20px;
   margin-top: 10px;
   color: white;
@@ -303,19 +309,25 @@
   justify-content: flex-end;
 }
 
-.wdr31 h4,.wdr31 p,.wdr31 .sp1 {
+.wdr31 h4,
+.wdr31 p,
+.wdr31 .sp1 {
   margin-left: 20px;
   margin-top: 10px;
   color: white;
 }
 
-.wdr32 h4,.wdr32 p,.wdr32 .sp1 {
+.wdr32 h4,
+.wdr32 p,
+.wdr32 .sp1 {
   margin-left: 20px;
   margin-top: 10px;
   color: white;
 }
 
-.wdr33 h4,.wdr33 p,.wdr33 .sp1 {
+.wdr33 h4,
+.wdr33 p,
+.wdr33 .sp1 {
   margin-left: 20px;
   margin-top: 10px;
   color: white;
@@ -389,7 +401,9 @@
   margin-top: 30px;
 }
 
-.aboutme-row2 .aboutme-row2-left,.aboutme-row2-middle,.aboutme-row2-right {
+.aboutme-row2 .aboutme-row2-left,
+.aboutme-row2-middle,
+.aboutme-row2-right {
   width: 200px;
   height: 400px;
   color: white;
@@ -399,12 +413,16 @@
   margin-left: 70px;
 }
 
-.aboutme-row2-left h6,.aboutme-row2-middle h6,.aboutme-row2-right h6 {
+.aboutme-row2-left h6,
+.aboutme-row2-middle h6,
+.aboutme-row2-right h6 {
   margin-top: 20px;
   font-size: large;
 }
 
-.aboutme-row2-left img,.aboutme-row2-middle img,.aboutme-row2-right img {
+.aboutme-row2-left img,
+.aboutme-row2-middle img,
+.aboutme-row2-right img {
   margin-right: 5px;
 }
 
@@ -568,7 +586,8 @@
     margin-right: 260px;
   }
 
-  .work-details-row2,.work-details-row3 {
+  .work-details-row2,
+  .work-details-row3 {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
@@ -591,7 +610,9 @@
     margin-top: 5px;
   }
 
-  .aboutme-row2 .aboutme-row2-left,.aboutme-row2-middle,.aboutme-row2-right {
+  .aboutme-row2 .aboutme-row2-left,
+  .aboutme-row2-middle,
+  .aboutme-row2-right {
     width: 200px;
     height: 400px;
     color: white;
@@ -601,7 +622,8 @@
     margin-left: 70px;
   }
 
-  .aboutme-left h4,.aboutme-left p {
+  .aboutme-left h4,
+  .aboutme-left p {
     font-size: 25px;
   }
   .aboutme-left.gr {
