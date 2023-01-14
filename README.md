@@ -70,3 +70,79 @@ After you're finished please remove all the comments and instructions!
 
 
 <!-- Features -->
+### Key Features <a name="key-features"></a>
+
+- **It uses a nice background image**
+- **The design is quite aesthetic**
+- **It leverages semantic Html 5**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+ to open the project in web Browser
+
+### Setup
+
+Clone this repository to your desired folder:
+
+
+
+
+
+### Deployment
+
+You can deploy this project using:
+
+github
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+
+
+👤 Hyder
+
+- GitHub: [@CodeWithHyder](https://github.com/codeWithHyder)
+- Twitter: [@hyder](https://twitter.com/@hyder3512)
+- LinkedIn: [Hyder](https://linkedin.com/in/https://www.linkedin.com/in/ghulam-hyder-dar-165653206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bb%2FezSQOCSmG9eV79rGAzQQ%3D%3D)
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank Precious,Drissa who helped and made me understand how to make this project work.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
