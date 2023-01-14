@@ -5,7 +5,6 @@
 }
 
 /* ------------------navbar section------------------- */
-
 .nav-container {
   display: flex;
   width: 1440px;
@@ -19,7 +18,7 @@
   flex: 1;
   height: 100%;
   color: white;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav-container .items-menu {
@@ -37,14 +36,13 @@
   text-decoration: none;
 }
 
-
 .nav-container .items-menu a {
   margin-right: 40px;
   color: white;
   list-style: none;
   text-decoration: none;
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   padding-left: 10px;
   padding-right: 10px;
@@ -120,13 +118,13 @@
 }
 
 .hero-right h1 {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 26px;
   color: rgb(155, 116, 19);
 }
 
 .hero-right h5 {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: rgb(204, 194, 194);
   font-size: 18px;
 }
@@ -514,9 +512,7 @@ input[type="email"] {
 }
 
 /* ----------------css for small screens----------------------------- */
-
 @media only screen and (max-width: 600px) {
-
   .nav-container .items-menu {
     display: none;
   }
@@ -564,7 +560,6 @@ input[type="email"] {
   }
 
   .work-heading .hline {
-          
     margin-right: 20px;
     text-shadow: none;
     border: 0.5px solid #212121;
