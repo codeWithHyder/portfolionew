@@ -144,11 +144,10 @@
   height: 100%;
 }
 
-/* --------------------my works----------------------------------------------- */
+/* --------------------myworks----------------------------------------------- */
 .myworks {
-  width: 1440px; 
-  background-color: #eee3e3;
-  fontt: 20px;
+  width: 1448px; 
+  background: green;
 }
 
 .myworks .work-heading {
@@ -351,7 +350,6 @@
 .aboutme-left p {
   width: 566px;
   height: 148px;
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
