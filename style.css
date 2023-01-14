@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 /* ------------------navbar section------------------- */
 
 .nav-container {
@@ -135,7 +134,7 @@
   margin-top: 20px;
   color: rgb(204, 194, 194);
   font-size: 14px;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-right1 {
@@ -218,7 +217,7 @@
 
 .wdr21,
 .wdr22,
-.wdr23 ,
+.wdr23,
 .wdr31,
 .wdr32,
 .wdr33 {
@@ -262,7 +261,7 @@
   flex-grow: 1;
 }
 
-.wdr22 ,
+.wdr22,
 .wdr32,
 .wdr33 {
   display: flex;
