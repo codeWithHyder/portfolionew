@@ -7,6 +7,7 @@
 /* ------------------navbar section------------------- */
 
 .nav-container {
+  display: flex;
   width: 1440px;
   height: 72px;
   background-color: #3e3c3c;
