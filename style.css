@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ------------------navbar section------------------- */
@@ -18,7 +19,6 @@
   flex: 1;
   height: 100%;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-container .items-menu {
@@ -42,7 +42,6 @@
   list-style: none;
   text-decoration: none;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   padding-left: 10px;
   padding-right: 10px;
@@ -118,13 +117,11 @@
 }
 
 .hero-right h1 {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 26px;
   color: rgb(155, 116, 19);
 }
 
 .hero-right h5 {
-  font-family: Arial, Helvetica, sans-serif;
   color: rgb(204, 194, 194);
   font-size: 18px;
 }
@@ -133,7 +130,6 @@
   margin-top: 20px;
   color: rgb(204, 194, 194);
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-right1 {
@@ -434,7 +430,6 @@
 
 .contactme-left p {
   font-size: 52px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .contactme-container .contactme-right {
@@ -630,7 +625,6 @@ input[type="email"] {
 
   .contactme-left p {
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
   }
 
   .contactme-container .contactme-right .name {
