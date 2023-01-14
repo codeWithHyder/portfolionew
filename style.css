@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Verdana;
 }
 
 /* ------------------navbar section------------------- */
@@ -643,5 +642,4 @@ input[type="email"] {
     height: 50px;
     align-items: center;
   }
-  
 }
