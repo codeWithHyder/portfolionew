@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* ------------------navbar section------------------- */
 
 .nav-container {
@@ -442,7 +443,7 @@
 
 .contactme-left p {
   font-size: 52px;
-  font-family: sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .contactme-container .contactme-right {
@@ -579,68 +580,68 @@ input[type="email"] {
   .work-details-row1 {
     display: flex;
     flex-direction: column;
-    margin-left: 050px;
-    margin-right: 0260px;
+    margin-left: 50px;
+    margin-right: 260px;
   }
 
   .work-details-row2,
   .work-details-row3 {
     display: flex;
     flex-direction: column;
-    margin-left: 050px;
-    margin-right: 0260px;
+    margin-left: 50px;
+    margin-right: 260px;
   }
 
   .aboutme-row1 {
     display: flex;
     flex-direction: column;
-    margin-left: 050px;
+    margin-left: 50px;
   }
 
   .aboutme-row2 {
     display: flex;
     flex-direction: column;
-    height: 0300px;
-    width: 0800px;
-    margin-left: 050px;
-    margin-right: 040px;
-    margin-top: 05px;
+    height: 300px;
+    width: 800px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 5px;
   }
 
   .aboutme-row2 .aboutme-row2-left,
   .aboutme-row2-middle,
   .aboutme-row2-right {
-    width: 0200px;
-    height: 0400px;
+    width: 200px;
+    height: 400px;
     color: white;
-    font-size: 016px;
-    margin-top: 030px;
-    margin-right: 020px;
-    margin-left: 070px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 70px;
   }
 
   .aboutme-left h4,
   .aboutme-left p {
-    font-size: 025px;
+    font-size: 25px;
   }
 
   .aboutme-left.gr {
-    font-size: 014px;
+    font-size: 14px;
   }
 
   .contactme-container {
     display: flex;
     flex-direction: column;
     background-color: #faf8f8;
-    width: 01440px;
+    width: 1440px;
   }
 
   .contactme-left {
-    border: 01 px solid red;
+    border: 1 px solid red;
   }
 
   .contactme-left p {
-    font-size: 025px;
+    font-size: 25px;
     font-family: sans-serif;
   }
 
@@ -657,8 +658,8 @@ input[type="email"] {
     display: flex;
     justify-content: center;
     background-color: #f1ecec;
-    width: 01440px;
-    height: 050px;
+    width: 1440px;
+    height: 50px;
     align-items: center;
   }
 }
