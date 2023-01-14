@@ -14,13 +14,12 @@
 }
 
 .nav-container .item-logo {
-  display: flex;
   align-items: center;
   margin-left: 20px;
   flex: 1;
   height: 100%;
   color: white;
-  font-family: sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .nav-container .items-menu {
