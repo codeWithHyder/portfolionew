@@ -481,7 +481,6 @@ input[type="email"] {
   background-color: #f55800;
   color: white;
   border: none;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
 
@@ -644,4 +643,5 @@ input[type="email"] {
     height: 50px;
     align-items: center;
   }
+  
 }
