@@ -23,6 +23,9 @@
   color: white;
   text-decoration: none;
   list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700px;
 }
 
 .nav-container .items-menu {
@@ -101,7 +104,8 @@
 
 .hero-right h5 {
   color: rgb(204, 194, 194);
-  font-size: 18px;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hero-right p {
@@ -115,9 +119,10 @@
   margin-left: 110px;
   margin-right: 0;
   flex: 1;
-  height: 550px;
+  height: 400px;
   width: 200px;
   margin-top: 0;
+  background-image: url("./images/Illustration-header.png");
 }
 
 .work-details-row1 img {
@@ -152,7 +157,7 @@
 /* --------------------myworks----------------------------------------------- */
 .myworks {
   width: 1440px;
-  background: #756e6e;
+  background: #e6e0e0;
 }
 
 .myworks .work-heading {
@@ -221,19 +226,19 @@
 
 .wdr22,
 .wdr32 {
-  background-image: url("Img placeholder (3).png");
+  background-image: url("./images/Img placeholder (3).png");
 }
 
 .wdr23,
 .wdr33 {
-  background-image: url("Img placeholder (4).png");
+  background-image: url("./images/Img placeholder (4).png");
 }
 
 .wdr21 {
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  background-image: url("Img placeholder (2).png");
+  background-image: url("./images/Img placeholder (2).png");
 }
 
 .wdr21 p {
@@ -293,7 +298,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url("Img placeholder (5).png");
+  background-image: url("./images/Img placeholder (5).png");
 }
 
 .wdr31 h4,
@@ -511,10 +516,11 @@ input[type="email"] {
   .hero-left {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: 0;
+    width: 150px;
     order: 2;
-    margin-left: 10px;
     margin-top: 10px;
+    padding: 0;
   }
 
   .hero-right {
@@ -522,17 +528,24 @@ input[type="email"] {
     order: 1;
   }
 
+  .hero-right h1 {
+    font-size: 56px;
+    color: rgb(155, 116, 19);
+    font-family: 'Crete Round', serif;
+  }
+  
+
   .hero-row .hero-right1 {
     width: 227px;
     height: 230px;
     margin-left: 148px;
-    background-position: center right;
+    border: 1px solid greenyellow;
   }
 
   /* -------------------myworks-------------------------------------- */
   .myworks {
     width: 375px;
-  }
+  } 
 
   .myworks .work-heading {
     display: flex;
