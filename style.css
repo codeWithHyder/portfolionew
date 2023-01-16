@@ -112,6 +112,26 @@
   font-size: 14px;
 }
 
+.work-details-row1 img {
+  width: 310px;
+  height: 337px;
+  margin-right: 50px;
+}
+
+.aboutme-right img {
+  position: absolute;
+  width: 98%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.aboutme-right img {
+  position: absolute;
+  width: 98%;
+  height: 100%;
+  overflow: hidden;
+}
+
 .hero-row .hero-right1 {
   order: 3;
   margin-left: 110px;
@@ -584,12 +604,6 @@ input[type="email"] {
     margin-right: 260px;
   }
 
-  .work-details-row1 img {
-    width: 310px;
-    height: 337px;
-    margin-right: 50px;
-  }
-
   .details-right1 {
     width: 327px;
     height: 147px;
@@ -647,13 +661,6 @@ input[type="email"] {
     position: relative;
     width: 330.23px;
     height: 200.17px;
-  }
-
-  .aboutme-right img {
-    position: absolute;
-    width: 98%;
-    height: 100%;
-    overflow: hidden;
   }
 
   .aboutme-row2 {
@@ -730,10 +737,5 @@ input[type="email"] {
     width: 375px;
     height: 50px;
     align-items: center;
-  }
-
-  .footer-container img {
-    width: 20px;
-    height: 20px;
   }
 }
