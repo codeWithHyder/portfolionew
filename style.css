@@ -22,6 +22,7 @@
   height: 100%;
   color: white;
   text-decoration: none;
+  list-style: none;
 }
 
 .nav-container .items-menu {
@@ -47,10 +48,6 @@
 
 .nav-container .items-menu a:hover {
   background-color: #615f5f;
-}
-
-.nav-container a {
-  list-style: none;
 }
 
 .nav-container a li .fa-bars {
@@ -123,6 +120,30 @@
   margin-top: 0;
 }
 
+.work-details-row1 img {
+  width: 684px;
+  height: 448px;
+}
+
+.aboutme-right img {
+  display: flex;
+  width: 672.39px;
+  height: 352.38px;
+  overflow: hidden;
+}
+
+.aboutme-row2-left img,
+.aboutme-row2-middle img,
+.aboutme-row2-right img {
+  margin-right: 5px;
+}
+
+.footer-container img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
 .hero-row .hero-right1 img {
   width: 100%;
   height: 100%;
@@ -157,10 +178,7 @@
   margin-right: 260px;
 }
 
-.work-details-row1 img {
-  width: 684px;
-  height: 448px;
-}
+
 
 .details-right1 {
   width: 400px;
@@ -347,13 +365,6 @@
   text-align: center;
 }
 
-.aboutme-right img {
-  display: flex;
-  width: 672.39px;
-  height: 352.38px;
-  overflow: hidden;
-}
-
 .hline hr {
   width: 1156px;
   top: 9px;
@@ -387,12 +398,6 @@
 .aboutme-row2-right h6 {
   margin-top: 20px;
   font-size: large;
-}
-
-.aboutme-row2-left img,
-.aboutme-row2-middle img,
-.aboutme-row2-right img {
-  margin-right: 5px;
 }
 
 /* -------------------------contact me-------------------------------------- */
@@ -475,12 +480,6 @@ input[type="email"] {
   align-items: center;
 }
 
-.footer-container img {
-  width: 25px;
-  height: 25px;
-  margin-right: 5px;
-}
-
 .footer-container img:hover {
   background-color: #f55800;
   cursor: pointer;
@@ -492,6 +491,7 @@ input[type="email"] {
     width: 375px;
     height: 92px;
   }
+
   .nav-container .items-menu {
     display: none;
   }
@@ -530,7 +530,7 @@ input[type="email"] {
     margin-left: 148px;
     background-position: center right;
   }
-  
+
   /* -------------------myworks-------------------------------------- */
   .myworks {
     width: 375px;
@@ -592,6 +592,7 @@ input[type="email"] {
     width: 375px;
     height: 1500px;
   }
+
   .aboutme-row1 {
     width: 327px;
     display: flex;
@@ -602,7 +603,7 @@ input[type="email"] {
   .aboutme-left p {
     width: 327px;
     height: 200px;
-    font-size: 14px;;
+    font-size: 14px;
     margin-left: 10px;
   }
 
