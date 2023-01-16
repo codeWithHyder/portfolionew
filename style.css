@@ -532,7 +532,7 @@ input[type="email"] {
     font-family: 'Crete Round', serif;
   }
   
-   section .hero-section .hero-row .hero-right1 {
+  section .hero-section .hero-row .hero-right1 {
     margin-right: 0;
     margin-left: 148px;
     padding-bottom: 100px;
@@ -549,6 +549,7 @@ input[type="email"] {
     height: 90%;
     flex: 1;
   }
+  
   /* -------------------myworks-------------------------------------- */
   .myworks {
     width: 375px;
