@@ -125,13 +125,6 @@
   overflow: hidden;
 }
 
-.aboutme-right img {
-  position: absolute;
-  width: 98%;
-  height: 100%;
-  overflow: hidden;
-}
-
 .hero-row .hero-right1 {
   order: 3;
   margin-left: 110px;
@@ -146,13 +139,6 @@
 .work-details-row1 img {
   width: 684px;
   height: 448px;
-}
-
-.aboutme-right img {
-  display: flex;
-  width: 672.39px;
-  height: 352.38px;
-  overflow: hidden;
 }
 
 .aboutme-row2-left img,
@@ -564,12 +550,10 @@ input[type="email"] {
   }
 
   .hero-row .hero-right1 img {
-    overflow: hidden;
     width: 90%;
     height: 90%;
     flex: 1;
   }
-
   /* -------------------myworks-------------------------------------- */
   .myworks {
     width: 375px;
@@ -587,7 +571,6 @@ input[type="email"] {
     width: 227px;
     margin-right: 0;
     margin-left: 20px;
-    border: 1px solid #262626;
   }
 
   .work-details {
