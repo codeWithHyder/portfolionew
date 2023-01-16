@@ -554,6 +554,7 @@ input[type="email"] {
   .myworks {
     width: 375px;
   }
+
   .myworks .work-heading {
     display: flex;
     flex-direction: column;
