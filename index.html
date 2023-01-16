@@ -8,19 +8,16 @@
     <script src="https://kit.fontawesome.com/085384e239.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    
     <!----------navbar setion------------------->
     <nav class="nav-container">
-        <div class="sidebar-right" id="sidebarright">
-            <div class="cross"><a href=""><i class="fa-sharp fa-solid fa-circle-xmark"></i></a></div>
-            <div><a href="">Portfolio</a></div>
-            <div><a href="">About</a></div>
-            <div><a href="">Contact</a></div>
-
-        </div>
-        <h1 class="item-logo">Hyder</h1>
+        <a href="">John Doe</a>
         <ul class="items-menu">
             <a href="#">
                 <li>Portfolio</li>
@@ -37,7 +34,7 @@
 
         </ul>
         <a href="#">
-            <li><i class="fa-solid fa-bars" onclick="openSideBar()"></i></li>
+            <li><i class="fa-solid fa-bars"></i></li>
         </a>
 
     </nav>
@@ -179,7 +176,7 @@
         <div class="contactme-right">
 
             <div class="name">
-                <input class="fname" type="text" name="fname" placeholder="first name">
+                <input class="fname" type="text" name="fname" placeholder="First name">
                 <input class="lname" type="text" name="lname" placeholder="Last name">
             </div>
             <input type="email" name="email" placeholder="Emai address">
@@ -198,14 +195,5 @@
         <img src="Vector5.png">
 
     </div>
-    <script>
-        let siebarright = document.getElementById("sidebarright");
-        function openSideBar() {
-            sidebarright.style.display = "block";
-
-        }
-    </script>
-
-</body>
-
+    </body>
 </html>
