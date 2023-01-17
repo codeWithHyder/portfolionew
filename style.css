@@ -638,14 +638,14 @@ input[type="email"] {
     flex-direction: column;
     margin-left: 50px;
   }
-  
+
   .aboutme-left p {
     width: 327px;
     height: 200px;
     font-size: 14px;
     margin-left: 10px;
   }
-
+  
   .aboutme-left .gr {
     width: 161px;
     height: 48px;
