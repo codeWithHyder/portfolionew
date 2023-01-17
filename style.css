@@ -120,13 +120,6 @@
   margin-right: 50px;
 }
 
-.aboutme-right img {
-  position: absolute;
-  width: 98%;
-  height: 100%;
-  overflow: hidden;
-}
-
 .hero-row .hero-right1 {
   order: 3;
   margin-left: 110px;
@@ -148,6 +141,11 @@
   width: 25px;
   height: 25px;
   margin-right: 5px;
+}
+
+.aboutme-right img {
+  width: 500px;
+  height: 340px;
 }
 
 .hero-row .hero-right1 img {
@@ -377,16 +375,10 @@
 }
 
 .aboutme-right {
-  /* position: absolute; */
   width: 500px;
   height: 400px;
   left: 68%;
   right: 0;
-}
-
-.aboutme-right img {
-  width: 500px;
-  height: 340px;
 }
 
 .aboutme-row2 {
@@ -574,6 +566,11 @@ input[type="email"] {
     background-image: url("./images/Group.png");
   }
 
+  .aboutme-right img {
+    width: 320px;
+    height: 200px;
+  }
+
   .hero-row .hero-right1 img {
     width: 70%;
     height: 50%;
@@ -671,11 +668,6 @@ input[type="email"] {
     flex-direction: column;
     width: 330.23px;
     height: 200.17px;
-  }
-
-  .aboutme-right img {
-    width: 320px;
-    height: 200px;
   }
 
   .aboutme-row2 {
