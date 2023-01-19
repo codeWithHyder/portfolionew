@@ -193,7 +193,7 @@
   font-family: 'crete Round', sans-serif;
 }
 
-/* --------------------- row2 recent works------------------- */ 
+/* --------------------- row2 recent works------------------------------------ */ 
 .my-recent-works .my-recent-works-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -711,7 +711,7 @@ input[type="email"] {
   .my-recent-works .my-recent-works-row2 {
     display: grid;
     grid-template-columns: 375px;
-    grid-template-rows: 250px ;
+    grid-template-rows: 250px;
     margin: 0;
   }
 
