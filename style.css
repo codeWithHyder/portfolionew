@@ -193,7 +193,7 @@
   font-family: 'crete Round', sans-serif;
 }
 
-/* --------------------- row2 recent works------------------------------------ */ 
+/* ---------------------row2recentworks----------------- */ 
 .my-recent-works .my-recent-works-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -384,11 +384,6 @@ li {
   padding-left: 10px;
   cursor: pointer;
 }
-
-/*{
-  background: rgba(255, 255, 255, 0.24);
-  color: #fff;
-} */
 
 /* --------------------------row4 of my recent works---------------- */
 .my-recent-works-row4 {
@@ -714,7 +709,7 @@ input[type="email"] {
     grid-template-rows: 250px;
     margin: 0;
   }
-
+  
   .my-recent-works-row2-left {
     background-image: url("./images/Img Placeholder (8).png");
     width: 327px;
@@ -843,7 +838,7 @@ input[type="email"] {
     display: flex;
     justify-content: flex-start;
     margin-left: 160px;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;
     width: 200px;
     height: 250px;
     background: url("./images/Group.png");
@@ -879,7 +874,7 @@ input[type="email"] {
     width: 375px;
     height: 1500px;
   }
-
+  
   .aboutme-row1 {
     width: 327px;
     display: flex;
