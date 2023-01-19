@@ -176,7 +176,7 @@
 .my-recent-works-row1-left .my-recent-works-row1-lft {
   width: 320px;
   height: 100px;
-  color: #091E42;
+  color: #091e42;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -214,7 +214,7 @@
   font-weight: 400;
   font-style: normal;
   font-family: 'Crete Round', sans-serif;
-  color: #091E42;
+  color: #091e42;
   list-style: none;
 }
 
@@ -237,10 +237,10 @@ li {
 
 .my-recent-works-row2-right .sp1 .sp11,
 .sp11 {
-  height:40px;
-  width:49px;
+  height: 40px;
+  width: 49px;
   background: #fff;
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   padding: 10px 12px;
   margin-right: 5px;
 }
@@ -248,7 +248,7 @@ li {
 .my-recent-works-row2-right .seeprojects1 {
   width: 124px;
   height: 48px;
-  background: #F55800;
+  background: #f55800;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -433,7 +433,7 @@ li {
   font-size: 72px;
   font-weight: 400;
   line-height: 81.5px;
-  color: #F55800;
+  color: #f55800;
   font-family: 'crete Round',sans-serif;
 }
 
@@ -443,14 +443,14 @@ li {
   font-weight: 400;
   font-style: normal;
   line-height: 32px;
-  color: #F4F5F7;;
+  color: #f4f5f7;;
 }
 
 .about-me-row1-left .seeprojects1 {
   width: 161px;
   height: 48px;
   padding: 12px;
-  background: #F55800;
+  background: #f55800;
   margin-top: 40px;
 }
 
@@ -767,7 +767,7 @@ input[type="email"] {
   .my-recent-works-row3-middle .seeprojects1 {
     width: 375px;
     height: 58px;
-    background: #F55800;
+    background: #f55800;
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -878,58 +878,6 @@ input[type="email"] {
     margin-left: 20px;
   }
   
-
-   
-
-
-  
-     
- /* }
-
-  .myworks .work-heading {
-    display: flex;
-    flex-direction: column;
-    width: 227px;
-    height: 83px;
-    font-size: 25px;
-  }
-
-  .work-heading .hline {
-    width: 227px;
-    margin-right: 0;
-    margin-left: 20px;
-  }
-
-  .work-details {
-    width: 375px;
-  }
-
-  .work-details-row1,
-  .work-details-row2,
-  .work-details-row3 {
-    width: 375px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-right: 260px;
-  }
-
-  .details-right1 {
-    width: 327px;
-    height: 147px;
-  }
-
-  .wdr21,
-  .wdr22,
-  .wdr23,
-  .wdr31,
-  .wdr32,
-  .wdr33 {
-    width: 327px;
-    height: 386px;
-    margin-right: 20px;
-  } */
-
   /* -------about me---------------------------------------- */
   .aboutme-container {
     width: 375px;
@@ -1012,7 +960,7 @@ input[type="email"] {
     height: 550px;
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background-color: #fff;
   }
 
   .contactme-left p {
@@ -1023,7 +971,7 @@ input[type="email"] {
     line-height: 44px;
     font-family: 'inter',sans-serif;
     text-align: center;
-    color: #172B4D;
+    color: #172b4d;
     padding: 0 5px 0 5px;
     margin-left: 0;
   }
