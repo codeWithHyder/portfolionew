@@ -193,7 +193,7 @@
   font-family: 'crete Round', sans-serif;
 }
 
-/* ---------------------row2recentworks----------------- */ 
+/* ---------------------row2recentworks--------------------------------------------------------------------------- */ 
 .my-recent-works .my-recent-works-row2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -868,8 +868,8 @@ input[type="email"] {
     text-align: center;
     margin-left: 20px;
   }
-  
-  /* -------about me---------------------------------------- */
+      
+/* -------about me---------------------------------------- */
   .aboutme-container {
     width: 375px;
     height: 1500px;
