@@ -344,11 +344,11 @@ li {
   cursor: pointer;
 }
 
- {
+/* {
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
   margin-top: 10px;
-}
+} */
 
 .my-recent-works-row3 .my-recent-works-row3-right {
   display: flex;
@@ -385,10 +385,10 @@ li {
   cursor: pointer;
 }
 
- {
+/*{
   background: rgba(255, 255, 255, 0.24);
   color: #fff;
-}
+} */
 
 /* --------------------------row4 of my recent works---------------- */
 .my-recent-works-row4 {
@@ -480,8 +480,6 @@ li {
   height: 50px;
 }
 
-
-
 /* ------------------------ about me row3------------------ */
 .about-me-row3 {
   display: grid;
@@ -511,13 +509,12 @@ li {
 .about-me-row3-right .about-me-head {
   width: 228px;
   height: 24px;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
 }
-
 
 /* -------------------------contact me-------------------------------------- */
 .contactme-container {
@@ -701,7 +698,7 @@ input[type="email"] {
 
   /* -------------------myworks-------------------------------------- */
   .my-recent-works {
-    width:375px;
+    width: 375px;
   }
 
   .my-recent-works-row1 { 
