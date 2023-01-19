@@ -192,6 +192,7 @@
   margin-right: 2px;
   font-family: 'crete Round', sans-serif;
 }
+
 /* ---------------------row2recentworks----------------- */ 
 .my-recent-works .my-recent-works-row2 {
   display: grid;
@@ -832,6 +833,7 @@ input[type="email"] {
     text-align: center;
     color: #fff;
   }
+
   .about-me-row1 .about-me-row1-right {
     display: flex;
     justify-content: flex-start;
