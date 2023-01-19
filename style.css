@@ -696,7 +696,7 @@ input[type="email"] {
     width: 375px;
   }
 
-  .my-recent-works-row1 { 
+  .my-recent-works-row1 {
     display: grid;
     grid-template-columns: 327px;
     grid-template-rows: 150px;
@@ -709,7 +709,7 @@ input[type="email"] {
     grid-template-rows: 250px;
     margin: 0;
   }
-  
+
   .my-recent-works-row2-left {
     background-image: url("./images/Img Placeholder (8).png");
     width: 327px;
@@ -833,7 +833,6 @@ input[type="email"] {
     text-align: center;
     color: #fff;
   }
-    
   .about-me-row1 .about-me-row1-right {
     display: flex;
     justify-content: flex-start;
