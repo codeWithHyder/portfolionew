@@ -651,7 +651,7 @@ input[type="email"] {
 
   .hero-section .hero-row {
     width: 375px;
-    height: 600px;
+    height: 700px;
     display: flex;
     flex-direction: column;
   }
@@ -714,16 +714,16 @@ input[type="email"] {
     padding-right: 5px;
   }
 
-  section .hero-section .hero-row .hero-right1 {
-    margin-right: 0;
-    margin-left: 148px;
-    padding-bottom: 100px;
-    height: 1200px;
-    width: 230px;
-    padding-top: 5px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    background-image: url("./images/Group.png");
+  .hero-row .hero-right1 {
+    width: 150.83px;
+    height: 50.89px; 
+    background-image: url("./images/background img small version.png");
+    padding-right: 10px;
+    margin-left: 210px;
+    bottom: 100px;
+    right: -15px;
+    overflow-x: hidden;
+    order: 3;
   }
 
   .aboutme-right img {
@@ -731,10 +731,9 @@ input[type="email"] {
     height: 200px;
   }
 
-  .hero-row .hero-right1 img {
-    width: 70%;
-    height: 50%;
-    flex: 1;
+ .hero-row .hero-right1 img {
+    max-width: 150px;
+    max-height: 200px;
   }
 
   /* -------------------myworks-------------------------------------- */
