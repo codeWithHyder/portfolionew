@@ -374,12 +374,6 @@ li {
   cursor: pointer;
 }
 
-/* {
-  background: rgba(255, 255, 255, 0.24);
-  color: #fff;
-  margin-top: 10px;
-} */
-
 .my-recent-works-row3 .my-recent-works-row3-right {
   display: flex;
   flex-direction: column;
