@@ -130,6 +130,7 @@ a {
   flex-direction: column;
   background: #e5e5e5;
   align-items: center;
+  border: 1px solid red;
 }
 
 .work-heading h4 {
@@ -153,8 +154,9 @@ hr {
   width: 90%;
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding: 0 2rem;
+  border: 1px solid purple;
 }
 
 .work-details-row1 .img {
@@ -163,10 +165,12 @@ hr {
   background-image: url("images/ImgPlaceholder.png");
   background-repeat: no-repeat;
   background-position: top;
+  border: 1px solid red;
 }
 
 .details-right1 {
-  padding: 12rem;
+  padding: 1rem 10rem;
+  border: 1px solid palevioletred;
 }
 
 .details-right1 h4 {
@@ -176,6 +180,7 @@ hr {
   font-family: 'Crete Round', sans-serif;
   font-size: 32px;
   line-height: 138%;
+  border: 1px solid green;
 }
 
 .details-right1 p {
@@ -262,12 +267,14 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: left;
+  border: 1px solid red;
 }
 
 .work h4 {
   height: auto;
   margin-top: 6rem;
-  padding-left: 1rem;
+  padding-left: 12rem;
+  padding-right: 10rem;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -284,7 +291,7 @@ button:hover {
   font-size: 16px;
   line-height: 150%;
   color: #fff;
-  padding: 1rem;
+  padding: 2rem 12rem;
 }
 
 .work ul {
@@ -301,6 +308,7 @@ button:hover {
 .work button {
   width: 100%;
   margin: 1rem 0 0 0;
+  padding-left: 3rem;
   border: none;
 }
 
