@@ -209,18 +209,18 @@ button {
 }
 
 .button:active {
-background: #f00;
-color: #fff;
-cursor: progress;
+  background: #f00;
+  color: #fff;
+  cursor: progress;
 }
 
 button:hover {
-background: #f2d9b6;
-color: #ff6b00;
-cursor: pointer;
-outline-color: transparent;
-outline-style: solid;
-box-shadow: 0 0 0 2px #ff6b00;
+  background: #f2d9b6;
+  color: #ff6b00;
+  cursor: pointer;
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 2px #ff6b00;
 }
 
 .button:disabled {
