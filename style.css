@@ -108,6 +108,7 @@ ul {
   display: flex;
   margin: 1rem 0 0 2rem;
 }
+
 li {
   list-style-type: none;
   margin-right: 1rem;
@@ -253,7 +254,7 @@ button:hover {
   align-items: center;
 }
 
-.work{
+.work {
   width: 100%;
   height: auto;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("images/Bg_ImgCard.png");
@@ -325,7 +326,7 @@ button:hover {
   padding: 1rem;
 }
 
-.aboutme-right{
+.aboutme-right {
   width: 100%;
   background-image: url("images/Bg_ImgAbout.png");
   background-repeat: no-repeat;
