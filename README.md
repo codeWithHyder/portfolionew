@@ -134,7 +134,7 @@ github
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Precious,Drissa who helped and made me understand how to make this project work.
+I would like to thank Precious,Drissa,Anita and Blessings who helped and made me understand how to make this project work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
