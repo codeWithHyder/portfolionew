@@ -125,6 +125,7 @@ a {
   color: #e5e5e5;
 }
 
+/* ----------------------my works-------------------------------- */
 .myworks {
   display: flex;
   flex-direction: column;
@@ -193,7 +194,7 @@ hr {
 }
 
 .details-right1 ul {
-  display: flex;
+  float: left;
   list-style-type: none;
   margin: 0 0 1rem -0.5rem;
 }
@@ -247,11 +248,11 @@ button:hover {
   color: #1c1a19;
   cursor: pointer;
 }
-
+/* ----------my cards----------------------------------- */
 .card-work {
   width: 90%;
   height: auto;
-  display: grid;
+  float: left;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 1rem;
@@ -264,10 +265,7 @@ button:hover {
   height: auto;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("images/Bg_ImgCard.png");
   background-repeat: round;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  border: 1px solid red;
+  float: left;
 }
 
 .work h4 {
@@ -312,6 +310,7 @@ button:hover {
   border: none;
 }
 
+/*------------------- about me---------------------------------- */
 .aboutme-container {
   width: 100%;
   height: auto;
