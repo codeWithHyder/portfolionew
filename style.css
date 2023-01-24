@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: #f55800;
 }
 
 main {
@@ -129,9 +130,9 @@ a {
 .myworks {
   display: flex;
   flex-direction: column;
-  background: #e5e5e5;
+  margin-left: 5em;
+  background: #ffffff;
   align-items: center;
-  border: 1px solid red;
 }
 
 .work-heading h4 {
@@ -152,36 +153,37 @@ hr {
 }
 
 .work-details-row1 {
-  width: 90%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
   padding: 0 2rem;
-  border: 1px solid purple;
 }
 
-.work-details-row1 .img {
+.work-details-row1 img {
   width: 100%;
-  height: 237px;
+  height: 300px;
   background-image: url("images/ImgPlaceholder.png");
   background-repeat: no-repeat;
   background-position: top;
-  border: 1px solid red;
 }
 
 .details-right1 {
-  padding: 1rem 10rem;
-  border: 1px solid palevioletred;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding-left: 2.5rem;
+  padding-right: 3.5rem;
 }
 
 .details-right1 h4 {
+  width: 100%;
   font-style: normal;
   font-weight: 400;
   color: #091e42;
   font-family: 'Crete Round', sans-serif;
   font-size: 32px;
   line-height: 138%;
-  border: 1px solid green;
 }
 
 .details-right1 p {
@@ -213,12 +215,14 @@ hr {
 
 button {
   align-items: center;
+  width: 10em;
   height: 48px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   text-align: center;
   border: none;
   padding: 0.5rem;
+  margin-top: 0.1em;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -226,6 +230,11 @@ button {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
+}
+
+.details-right1 .btn {
+  display: flex;
+  flex-direction: column;
 }
 
 .button:active {
@@ -250,7 +259,7 @@ button:hover {
 }
 /* ----------my cards----------------------------------- */
 .card-work {
-  width: 90%;
+  width: 95%;
   height: auto;
   float: left;
   grid-template-columns: 1fr;
@@ -261,17 +270,18 @@ button:hover {
 }
 
 .work {
-  width: 100%;
+  width: 90%;
   height: auto;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("images/Bg_ImgCard.png");
+  background: linear-gradient(180.45deg, rgba(71, 70, 70, 0) 0.75%, rgba(77, 75, 75, 0.9) 61.94%), url("images/Bg_ImgCard.png");
   background-repeat: round;
   float: left;
 }
 
 .work h4 {
+  width: 10em;
   height: auto;
   margin-top: 6rem;
-  padding-left: 12rem;
+  padding-left: 2rem;
   padding-right: 10rem;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -283,18 +293,19 @@ button:hover {
 
 .work p {
   height: auto;
+  width: 20em;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #fff;
-  padding: 2rem 12rem;
+  padding: 2rem 2rem;
 }
 
 .work ul {
   margin: 3rem 0 0 1rem;
-  margin-left: 30%;
+  margin-left: 10%;
 }
 
 .work li {
@@ -397,7 +408,6 @@ button:hover {
 form {
   width: 100%;
   height: auto;
-  border: 1px solid green;
 }
 
 form ul {
@@ -409,7 +419,6 @@ form ul {
 form ul li {
   width: 100%;
   margin-top: 2rem;
-  border: 2px solid red;
 }
 
 form ul li h1 {
@@ -421,4 +430,61 @@ form ul li h1 {
   font-style: normal;
   color: #172b4d;
   
+}
+form ul li input {
+  height: 60px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  width: 100%;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+form ul li textarea {
+  width: 100%;
+  height: 114px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  background: #fbf8f7;
+}
+
+form ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form ul li button {
+  width: 131px;
+  height: 48px;
+  background-color: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  font-style: normal;
+  color: #fff;
+}
+
+form ul li button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+/* --------------------------footer------------------------------------ */
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #67696b;
+  border-top: 1px solid ;
 }
