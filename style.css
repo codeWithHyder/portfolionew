@@ -220,14 +220,11 @@ footer ul {
 }
 
 form ul li {
-  width: 100%;
-  margin-top: 2rem;
-}
-
-form ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .details-right1 li {
