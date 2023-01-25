@@ -496,7 +496,7 @@ form ul li button:hover {
 }
 
 /* -----------------------------css for desktop or bigger screens-------- */
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
   html {
     width: 100%;
   }
@@ -510,7 +510,7 @@ form ul li button:hover {
     height: 45rem;
     background: #1c1a19;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: center;
     padding-bottom: 10rem;
     background-image: url("./images/Illustration-header.png");
@@ -526,6 +526,13 @@ form ul li button:hover {
   .hero-left {
     background-image: none;
     height: 0;
+  }
+
+  form ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2.5rem;
   }
 
   .hero-left ul {
@@ -587,12 +594,6 @@ form ul li button:hover {
   .work-details {
     width: 90%;
     height: auto;
-  }
-
-  .work-details-row1 {
-    display: flex;
-    height: auto;
-    flex-direction: row;
   }
 
   .work-details-row1 img {
@@ -703,13 +704,6 @@ form ul li button:hover {
   }
 
   /* -------------------conatct form-------------------------------- */
-  form ul {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    gap: 2.5rem;
-  }
-
   form ul .contact-left {
     display: flex;
     margin-bottom: 15rem;
@@ -721,7 +715,8 @@ form ul li button:hover {
     flex-direction: column;
     width: 50%;
   }
-  .contact-right li input,textarea {
+  .contact-right li input,
+  textarea {
     padding-left: 0.5rem;
   }
 }
