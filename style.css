@@ -714,7 +714,6 @@ form ul li button:hover {
     flex-direction: column;
     width: 50%;
   }
-  
   .contact-right li input,
   textarea {
     padding-left: 0.5rem;
