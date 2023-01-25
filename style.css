@@ -149,9 +149,10 @@ a {
   color: #1c1a19;
 }
 
-hr {
+.work-heading hr {
   width: 90%;
   margin: 1rem auto;
+  border: 1px solid grey;
 }
 
 .work-details {
@@ -317,7 +318,7 @@ button:hover {
 
 .work {
   width: 100%;
-  height: auto;
+  height: 28rem;
   background: linear-gradient(180.45deg, rgba(71, 70, 70, 0) 0.75%, rgba(77, 75, 75, 0.9) 61.94%), url("images/Bg_ImgCard.png");
   background-repeat: round;
   float: left;
@@ -492,4 +493,235 @@ form ul li textarea {
 form ul li button:hover {
   background-color: #fff5e1;
   border: 1px solid #f55800;
+}
+
+/* -----------------------------css for desktop or bigger screens-------- */
+@media only screen and (min-width:768px) {
+  html {
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hero-section {
+    width: 100%;
+    height: 45rem;
+    background: #1c1a19;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-bottom: 10rem;
+    background-image: url("./images/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .hero-section img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .hero-left {
+    background-image: none;
+    height: 0;
+  }
+
+  .hero-left ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    width: 5%;
+    height: 30rem;
+    order: 1;
+  }
+
+  .hero-left ul li {
+    margin-top: 1.5rem;
+  }
+
+  .hero-right {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 50rem;
+    order: 2;
+    margin-left: 10rem;
+    margin-top: 8rem;
+    padding-top: 2rem;
+    margin-bottom: 30rem;
+  }
+
+  .hero-right p {
+    width: 50%;
+  }
+
+  .work-details-row1 {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
+
+  .work-heading {
+    display: flex;
+    height: 10rem;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+  }
+
+  .work-heading h4 {
+    width: 25rem;
+    padding-left: 2rem;
+    margin-bottom: 8rem;
+  }
+
+  .work-heading hr {
+    width: 65rem;
+    height: 0;
+  }
+
+  .work-details {
+    width: 90%;
+    height: auto;
+  }
+
+  .work-details-row1 {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .work-details-row1 img {
+    width: 50%;
+    height: 300px;
+    background-image: url("./images/big row1 img.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-left: 0;
+  }
+
+  .details-right1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+
+  .card-work {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    padding: 2rem 0 6rem 0;
+    align-items: center;
+  }
+
+  .work button {
+    display: none;
+  }
+
+  .wdr21 button {
+    display: block;
+    padding-bottom: 3rem;
+  }
+
+  /* ----------about me ------------------------ */
+  .aboutme-container {
+    width: 100%;
+    height: auto;
+    background: #1c1a19;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutme-row1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .aboutme-left {
+    width: 40%;
+    margin-left: 4rem;
+  }
+
+  .aboutme-left h4 {
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .aboutme-left .gr {
+    margin-left: 1rem;
+  }
+
+  .aboutme-right {
+    width: 60%;
+    height: 30rem;
+    background-image: url("./images/aboutmeright.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .aboutme-right img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .hline {
+    width: 1156px;
+    border: 1px solid #fff;
+    margin: 0 5rem;
+  }
+
+  .aboutme-row2 ul {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+
+  .aboutme-tech {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+
+  }
+
+  .aboutme-tech ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutme-tech ul li {
+    text-align: left;
+  }
+
+  /* -------------------conatct form-------------------------------- */
+  form ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2.5rem;
+  }
+
+  form ul .contact-left {
+    display: flex;
+    margin-bottom: 15rem;
+    width: 40%;
+  }
+
+  form ul .contact-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .contact-right li input,textarea {
+    padding-left: 0.5rem;
+  }
 }
