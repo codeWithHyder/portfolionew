@@ -5,6 +5,7 @@
 }
 
 main {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -130,9 +131,10 @@ a {
 .myworks {
   display: flex;
   flex-direction: column;
-  margin-left: 5em;
+  margin-left: 0.3rem;
   background: #fff;
   align-items: center;
+  width: 100%;
 }
 
 .work-heading h4 {
@@ -152,17 +154,22 @@ hr {
   margin: 1rem auto;
 }
 
+.work-details {
+  width: 90%;
+}
+
 .work-details-row1 {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .work-details-row1 img {
   width: 100%;
   height: 300px;
+  margin-left: 0.2rem;
   background-image: url("images/ImgPlaceholder.png");
   background-repeat: no-repeat;
   background-position: top;
@@ -172,7 +179,7 @@ hr {
   display: flex;
   flex-direction: column;
   width: 90%;
-  padding-left: 2.5rem;
+  padding-left: 0.2rem;
   padding-right: 3.5rem;
 }
 
@@ -298,7 +305,7 @@ button:hover {
 
 /* ----------my cards----------------------------------- */
 .card-work {
-  width: 95%;
+  width: 100%;
   height: auto;
   float: left;
   grid-template-columns: 1fr;
@@ -309,7 +316,7 @@ button:hover {
 }
 
 .work {
-  width: 90%;
+  width: 100%;
   height: auto;
   background: linear-gradient(180.45deg, rgba(71, 70, 70, 0) 0.75%, rgba(77, 75, 75, 0.9) 61.94%), url("images/Bg_ImgCard.png");
   background-repeat: round;
@@ -317,11 +324,11 @@ button:hover {
 }
 
 .work h4 {
-  width: 10em;
+  width: 90%;
   height: auto;
   margin-top: 6rem;
-  padding-left: 2rem;
-  padding-right: 10rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -332,14 +339,14 @@ button:hover {
 
 .work p {
   height: auto;
-  width: 20em;
+  width: 90%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #fff;
-  padding: 2rem 2rem;
+  padding: 2rem 0.5rem;
 }
 
 .work ul {
@@ -449,7 +456,7 @@ form {
   height: auto;
 }
 
-form ul li h1 {
+form ul li h2 {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
