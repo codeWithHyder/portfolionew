@@ -714,6 +714,7 @@ form ul li button:hover {
     flex-direction: column;
     width: 50%;
   }
+  
   /* ------------------ to remove eol white space ----------- */
   .contact-right li input,
   textarea {
