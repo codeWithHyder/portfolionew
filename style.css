@@ -26,6 +26,18 @@ header {
   background: #3c3a39;
 }
 
+ul {
+  display: flex;
+  margin: 1rem 0 0 2rem;
+}
+
+form ul {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-right: 10rem;
+}
+
 .nav-container ul {
   display: none;
 }
@@ -50,7 +62,6 @@ header {
   background-image: url("images/menu.png");
   background-position: top right;
 }
-
 
 .hero-section {
   width: 100%;
@@ -109,11 +120,6 @@ p {
   height: 256.88px;
   margin-bottom: -3rem;
   color: #fff;
-}
-
-ul {
-  display: flex;
-  margin: 1rem 0 0 2rem;
 }
 
 li {
@@ -208,13 +214,6 @@ a {
   line-height: 150%;
 }
 
-form ul {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin-right: 10rem;
-}
-
 footer ul {
   display: flex;
   align-items: center;
@@ -225,7 +224,7 @@ footer ul {
   background-color: #fdfcfc;
   border-top: 1px solid;
 }
-  
+
 .details-right1 ul {
   float: left;
   list-style-type: none;
@@ -673,11 +672,10 @@ form ul li button:hover {
 
   .wdr21 ul {
     display: none;
-  } 
-
+  }
+  
   .wdr21 button {
     display: flex;
-    height: 2rem;
     justify-content: center;
     height: 3rem;
   }
