@@ -456,8 +456,8 @@ button:hover {
 }
 
 /* -----------------------contact form --------------------------------- */
-form {
-  width: 100%;
+form ul {
+  width: 90%;
   height: auto;
 }
 
