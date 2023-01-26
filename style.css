@@ -49,13 +49,6 @@ footer ul {
   border-top: 1px solid;
 }
 
-form ul {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  gap: 2.5rem;
-}
-
 .nav-container ul {
   display: none;
 }
@@ -555,7 +548,14 @@ form ul li button:hover {
     background-image: none;
     height: 0;
   }
-
+  
+  form ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2.5rem;
+  }
+  
   .hero-left ul {
     display: flex;
     flex-direction: column;
@@ -673,7 +673,7 @@ form ul li button:hover {
   .wdr21 ul {
     display: none;
   }
-  
+
   /* --------------------------remove extra space error----------------------- */
   .wdr21 button {
     display: flex;
