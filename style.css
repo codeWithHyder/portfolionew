@@ -26,6 +26,10 @@ header {
   background: #3c3a39;
 }
 
+.nav-container ul {
+  display: none;
+}
+
 .Johnd {
   margin-top: auto;
   width: 50%;
@@ -46,6 +50,7 @@ header {
   background-image: url("images/menu.png");
   background-position: top right;
 }
+
 
 .hero-section {
   width: 100%;
@@ -217,10 +222,10 @@ footer ul {
   margin-left: 0;
   height: 70px;
   width: 100%;
-  background-color: #67696b;
+  background-color: #fdfcfc;
   border-top: 1px solid;
 }
-
+  
 .details-right1 ul {
   float: left;
   list-style-type: none;
@@ -497,12 +502,29 @@ form ul li button:hover {
 
 /* -----------------------------css for desktop or bigger screens-------- */
 @media only screen and (min-width: 768px) {
-  html {
+  main {
     width: 100%;
   }
 
   .menu {
     display: none;
+  }
+
+  .nav-container ul {
+    display: flex;
+    margin-right: 3rem;
+  }
+
+  .nav-container ul li a {
+    text-decoration: none;
+    width: 63px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
   }
 
   .hero-section {
@@ -558,6 +580,15 @@ form ul li button:hover {
     margin-top: 8rem;
     padding-top: 2rem;
     margin-bottom: 30rem;
+  }
+
+  .hero-right h1 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
   }
 
   .hero-right p {
@@ -624,20 +655,38 @@ form ul li button:hover {
     align-items: center;
   }
 
+  .work ul {
+    height: 2.5rem;
+    margin-left: 0.5rem;
+  }
+
   .work button {
     display: none;
   }
 
+  .wdr21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url('./images/Img Placeholder (2).png');
+  }
+
+  .wdr21 ul {
+    display: none;
+  } 
+
   .wdr21 button {
-    display: block;
-    padding-bottom: 3rem;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    height: 3rem;
   }
 
   /* ----------about me ------------------------ */
   .aboutme-container {
     width: 100%;
     height: auto;
-    background: #1c1a19;
+    background: #262626;
     display: flex;
     flex-direction: column;
   }
@@ -656,6 +705,12 @@ form ul li button:hover {
   .aboutme-left h4 {
     text-align: left;
     padding-left: 1rem;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
   }
 
   .aboutme-left .gr {
