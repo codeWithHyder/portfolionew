@@ -701,6 +701,7 @@ form ul li button:hover {
   .aboutme-tech ul li {
     text-align: left;
   }
+  
   /* ----------------------------------- contact form-------------------------------------------------------------------- */
   form ul .contact-left {
     display: flex;
