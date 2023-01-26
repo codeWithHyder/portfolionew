@@ -38,6 +38,17 @@ form ul {
   margin-right: 10rem;
 }
 
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+  height: 70px;
+  width: 100%;
+  background-color: #fdfcfc;
+  border-top: 1px solid;
+}
+
 .nav-container ul {
   display: none;
 }
@@ -212,17 +223,6 @@ a {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   line-height: 150%;
-}
-
-footer ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 0;
-  height: 70px;
-  width: 100%;
-  background-color: #fdfcfc;
-  border-top: 1px solid;
 }
 
 .details-right1 ul {
