@@ -698,11 +698,12 @@ form ul li button:hover {
     flex-direction: column;
   }
 
+  /* -------------------remove css error -------------------------- */
   .aboutme-tech ul li {
     text-align: left;
   }
-  
-  /* ----------------------------------- contact form-------------------------------------------------------------------- */
+
+  /* ----------------------------------- contact form----------------------------------------------------------------------------- */
   form ul .contact-left {
     display: flex;
     margin-bottom: 15rem;
