@@ -55,7 +55,7 @@ footer ul {
 
 .Johnd {
   margin-top: auto;
-  width: 50%;
+  width: 10%;
   height: 24px;
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
@@ -368,7 +368,6 @@ button:hover {
   color: #fff;
   background: rgba(255, 255, 255, 0.24);
   padding: 0.5rem;
-  border: 1px solid greenyellow;
 }
 
 .work button {
@@ -532,6 +531,16 @@ form ul li button:hover {
     color: #fff;
   }
 
+  .Johnd:hover {
+    transform: scaleX(1);
+    border: 1px solid rgb(36, 228, 132);
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+    padding: 0.1rem;
+    transition: 0.5s ease-in;
+  }
+  
   .hero-section {
     width: 100%;
     height: 45rem;
@@ -584,7 +593,7 @@ form ul li button:hover {
   .hero-right {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 85%;
     height: 50rem;
     order: 2;
     margin-left: 10rem;
@@ -594,6 +603,7 @@ form ul li button:hover {
   }
 
   .hero-right h1 {
+    width: 90%;
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -672,12 +682,13 @@ form ul li button:hover {
     background: linear-gradient(180.45deg, rgba(71, 70, 70, 0) 0.75%, rgba(77, 75, 75, 0.9) 61.94%), url("images/Bg_ImgCard.png");
     background-repeat: round;
     float: left;
-    transition: 0.5s ease-in-out;
+    transition-duration: 2s;
   }
 
   .work:hover {
     width: 100%;
     height: 28rem;
+    transform: scale(1px);
     background: linear-gradient(180.45deg, rgb(163, 160, 160) 0.75%, rgba(168, 162, 162, 0) 61.94%), url("./images/Img Placeholder (2).png");
     background-repeat: round;
     cursor: pointer;
