@@ -548,7 +548,7 @@ form ul li button:hover {
     background-image: none;
     height: 0;
   }
-  
+
   /* ----------------------- to remove stylelint error used this extra comment----------- */
   form .contact-ul {
     display: flex;
