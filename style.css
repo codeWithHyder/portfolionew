@@ -31,10 +31,10 @@ ul {
   margin: 1rem 0 0 2rem;
 }
 
-form ul {
+form .contact-ul {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 88%;
   margin-right: 10rem;
 }
 
@@ -156,7 +156,7 @@ a {
   margin-left: 0.3rem;
   background: #fff;
   align-items: center;
-  width: 100%;
+  width: 95%;
 }
 
 .work-heading h4 {
@@ -549,13 +549,13 @@ form ul li button:hover {
     height: 0;
   }
   
-  form ul {
+  form .contact-ul {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 88%;
     gap: 2.5rem;
   }
-  
+
   .hero-left ul {
     display: flex;
     flex-direction: column;
