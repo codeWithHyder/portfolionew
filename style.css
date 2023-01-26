@@ -701,7 +701,7 @@ form ul li button:hover {
   .aboutme-tech ul li {
     text-align: left;
   }
-
+  
   /* -------------------conatct form-------------------------------- */
   form ul .contact-left {
     display: flex;
@@ -715,7 +715,7 @@ form ul li button:hover {
     width: 50%;
   }
 
-/* ------------------ to remove eol white space ----------- */
+  /* ------------------ to remove eol white space ----------- */
   .contact-right li input,
   textarea {
     padding-left: 0.5rem;
