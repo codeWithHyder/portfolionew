@@ -541,6 +541,14 @@ form ul li button:hover {
     transition: 0.5s ease-in;
   }
   
+  .menu-items a:hover {
+    font-size: 1.5rem;
+    background-color: #aa491048;
+    color:chartreuse;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+  }
+  
   .hero-section {
     width: 100%;
     height: 45rem;
