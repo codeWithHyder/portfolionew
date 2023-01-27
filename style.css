@@ -540,6 +540,13 @@ form ul li button:hover {
     padding: 0.1rem;
     transition: 0.5s ease-in;
   }
+
+  ul li a:hover {
+    transform: scale(5,5);
+    font-size: 18px;
+    color:rgb(36, 228, 132);
+    transition: 0.5s ease-in-out;
+  }
   
   .hero-section {
     width: 100%;
