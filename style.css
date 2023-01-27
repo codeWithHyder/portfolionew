@@ -537,7 +537,7 @@ form ul li button:hover {
     width: 5rem;
     height: 1.5rem;
     border-radius: 2rem;
-    padding: 0.1rem;
+    padding: rem;
     transition: 0.5s ease-in;
   }
 
