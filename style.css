@@ -542,9 +542,9 @@ form ul li button:hover {
   }
 
   ul li a:hover {
-    transform: scale(5,5);
+    transform: scale(5, 5);
     font-size: 18px;
-    color:rgb(36, 228, 132);
+    color: rgb(36, 228, 132);
     transition: 0.5s ease-in-out;
   }
   
