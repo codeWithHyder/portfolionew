@@ -321,11 +321,15 @@ button:hover {
 }
 
 .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   width: 100%;
   height: 28rem;
   background: linear-gradient(180.45deg, rgba(71, 70, 70, 0) 0.75%, rgba(77, 75, 75, 0.9) 61.94%), url("images/Bg_ImgCard.png");
   background-repeat: round;
-  float: left;
+  /*padding-bottom: 0.1rem;*/
+  /*float: left;*/
 }
 
 .work h4 {
@@ -690,16 +694,16 @@ form ul li button:hover {
     background: linear-gradient(180.45deg, rgba(71, 70, 70, 0) 0.75%, rgba(77, 75, 75, 0.9) 61.94%), url("images/Bg_ImgCard.png");
     background-repeat: round;
     float: left;
-    transition-duration: 2s;
   }
 
   .work:hover {
     width: 100%;
     height: 28rem;
-    transform: scale(1px);
     background: linear-gradient(180.45deg, rgb(163, 160, 160) 0.75%, rgba(168, 162, 162, 0) 61.94%), url("./images/Img Placeholder (2).png");
     background-repeat: round;
     cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
     float: left;
   }
 
@@ -710,6 +714,19 @@ form ul li button:hover {
 
   .work button {
     display: none;
+  } 
+
+  .work:hover ul,
+  .work:hover h4,
+  .work:hover p {
+    display: none;
+  }
+
+  .work:hover button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
 
   .wdr21 {
@@ -719,16 +736,16 @@ form ul li button:hover {
     background-image: url('./images/Bg_ImgCard.png');
   }
 
-  .wdr21 ul {
+  /*.wdr21 ul {
     display: none;
-  }
+  }*/
 
   /* --------------------------remove extra space error----------------------- */
-  .wdr21 button {
+  /*.wdr21 button {
     display: flex;
     justify-content: center;
     height: 3rem;
-  }
+  }*/
 
   /* ----------about me ------------------------ */
   .aboutme-container {
