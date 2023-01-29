@@ -572,6 +572,7 @@ form ul li button:hover {
     height: 80%;
   }
 
+/* tried to remove eol error------------ */
   .hero-left {
     background-image: none;
     height: 0;
