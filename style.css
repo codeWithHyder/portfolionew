@@ -328,7 +328,7 @@ button:hover {
   height: 28rem;
   background: linear-gradient(180.45deg, rgba(71, 70, 70, 0) 0.75%, rgba(77, 75, 75, 0.9) 61.94%), url("images/Bg_ImgCard.png");
   background-repeat: round;
-  /*padding-bottom: 0.1rem;*/
+  padding-bottom: 0.5rem;
   /*float: left;*/
 }
 
@@ -537,19 +537,21 @@ form ul li button:hover {
 
   .Johnd:hover {
     transform: scaleX(1);
-    border: 1px solid rgb(36, 228, 132);
     width: 5rem;
     height: 1.5rem;
     border-radius: 2rem;
-    padding: rem;
-    transition: 0.5s ease-in;
+    padding-top: 0.3rem;
+    transition: all 0.5s ease-in;
   }
 
   ul li a:hover {
-    transform: scale(5, 5);
-    font-size: 18px;
-    color: rgb(36, 228, 132);
     transition: 0.5s ease-in-out;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform-origin: center center;
+    font-size: 18px;
+    color: rgb(36, 228, 132);    
   }
   
   /* ------------ to avoid style lint errors it is used here ---------- */
@@ -694,6 +696,7 @@ form ul li button:hover {
     background: linear-gradient(180.45deg, rgba(71, 70, 70, 0) 0.75%, rgba(77, 75, 75, 0.9) 61.94%), url("images/Bg_ImgCard.png");
     background-repeat: round;
     float: left;
+    padding-bottom: 0.5rem;
   }
 
   .work:hover {
@@ -705,6 +708,7 @@ form ul li button:hover {
     transform: scale(1.1);
     transition: ease-in-out 0.5s;
     float: left;
+    padding-bottom: 0;
   }
 
   .work ul {
@@ -725,7 +729,7 @@ form ul li button:hover {
   .work:hover button {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
   }
 
