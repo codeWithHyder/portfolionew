@@ -784,7 +784,7 @@ form ul li button:hover {
   .aboutme-left .gr {
     margin-left: 1rem;
   }
-  
+
   .aboutme-right {
     width: 60%;
     height: 30rem;
@@ -809,7 +809,7 @@ form ul li button:hover {
     flex-direction: column;
     margin-left: 5rem;
   }
-  
+
   /* -------------------remove css error -------------------------- */
   .aboutme-tech ul li {
     text-align: left;
