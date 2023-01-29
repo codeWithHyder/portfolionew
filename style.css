@@ -550,9 +550,9 @@ form ul li button:hover {
     -ms-transform: rotate(360deg);
     transform-origin: center center;
     font-size: 18px;
-    color: rgb(36, 228, 132);    
+    color: rgb(36, 228, 132);
   }
-  
+
   /* ------------ to avoid style lint errors it is used here ---------- */
   .hero-section {
     width: 100%;
