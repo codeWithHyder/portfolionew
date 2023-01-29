@@ -329,7 +329,6 @@ button:hover {
   background: linear-gradient(180.45deg, rgba(71, 70, 70, 0) 0.75%, rgba(77, 75, 75, 0.9) 61.94%), url("images/Bg_ImgCard.png");
   background-repeat: round;
   padding-bottom: 0.5rem;
-  /*float: left;*/
 }
 
 .work h4 {
@@ -720,6 +719,28 @@ form ul li button:hover {
     display: none;
   } 
 
+  .aboutme-left h4 {
+    text-align: left;
+    padding-left: 1rem;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #f55800;
+  }
+
+  .aboutme-row2 ul {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+  }
+
+  .aboutme-tech ul {
+    display: flex;
+    flex-direction: column;
+  }
+
   .work:hover ul,
   .work:hover h4,
   .work:hover p {
@@ -740,17 +761,6 @@ form ul li button:hover {
     background-image: url('./images/Bg_ImgCard.png');
   }
 
-  /*.wdr21 ul {
-    display: none;
-  }*/
-
-  /* --------------------------remove extra space error----------------------- */
-  /*.wdr21 button {
-    display: flex;
-    justify-content: center;
-    height: 3rem;
-  }*/
-
   /* ----------about me ------------------------ */
   .aboutme-container {
     width: 100%;
@@ -770,18 +780,7 @@ form ul li button:hover {
     width: 40%;
     margin-left: 4rem;
   }
-
-  .aboutme-left h4 {
-    text-align: left;
-    padding-left: 1rem;
-    font-family: 'Crete Round', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 82px;
-    color: #f55800;
-  }
-
+  
   .aboutme-left .gr {
     margin-left: 1rem;
   }
@@ -805,23 +804,12 @@ form ul li button:hover {
     margin: 0 5rem;
   }
 
-  .aboutme-row2 ul {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-  }
-
   .aboutme-tech {
     display: flex;
     flex-direction: column;
     margin-left: 5rem;
   }
-
-  .aboutme-tech ul {
-    display: flex;
-    flex-direction: column;
-  }
-
+  
   /* -------------------remove css error -------------------------- */
   .aboutme-tech ul li {
     text-align: left;
