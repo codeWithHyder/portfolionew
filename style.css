@@ -553,7 +553,6 @@ form ul li button:hover {
     color: rgb(36, 228, 132);
   }
 
-  /* ------------ to avoid style lint errors it is used here ---------- */
   .hero-section {
     width: 100%;
     height: 45rem;
@@ -571,8 +570,7 @@ form ul li button:hover {
     width: 80%;
     height: 80%;
   }
-  
-  /* --------- 574 error ---------------- */
+
   .hero-left {
     background-image: none;
     height: 0;
