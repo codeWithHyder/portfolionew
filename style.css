@@ -570,7 +570,8 @@ form ul li button:hover {
     width: 80%;
     height: 80%;
   }
-
+  
+  /* ---------------- error----------- */
   .hero-left {
     background-image: none;
     height: 0;
