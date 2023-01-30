@@ -507,7 +507,6 @@ form ul li button:hover {
   border: 1px solid #f55800;
 }
 
-/* -----------------------------css for desktop or bigger screens-------- */
 @media only screen and (min-width: 768px) {
   main {
     width: 100%;
