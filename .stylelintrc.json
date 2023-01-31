@@ -3,6 +3,7 @@
   "plugins": ["stylelint-scss", "stylelint-csstree-validator"],
   "rules": {
     "at-rule-no-unknown": null,
+    "no-eol-whitespace": null,
     "scss/at-rule-no-unknown": [
       true,
       {
@@ -17,6 +18,6 @@
     ]
   },
   "csstree/validator": true,
-  "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"],
-  "ignore": ["empty-lines"]
+  "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
+  
 }
