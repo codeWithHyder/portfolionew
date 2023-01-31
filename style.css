@@ -568,9 +568,10 @@ form ul li button:hover {
   .hero-section img {
     width: 80%;
     height: 80%;
-    border: #dbd8d7;
+    border-top: #dbd8d7;
+    border-bottom: #dbd8d7;
   }
-  
+
   .hero-left {
     background-image: none;
     height: 0;
