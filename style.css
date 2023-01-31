@@ -565,11 +565,14 @@ form ul li button:hover {
     background-position: top right;
   }
 
+  img {
+    border-top: #dbd8d7;
+    border-bottom: #dbd8d7;
+  }
+
   .hero-section img {
     width: 80%;
     height: 80%;
-    border-top: #dbd8d7;
-    border-bottom: #dbd8d7;
   }
 
   .hero-left {
