@@ -575,6 +575,7 @@ form ul li button:hover {
     height: 80%;
   }
 
+  /* ----- css errror gotcha--------------------- */
   .hero-left {
     background-image: none;
     height: 0;
