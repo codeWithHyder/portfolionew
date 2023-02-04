@@ -36,7 +36,7 @@ header {
   box-sizing: border-box;
   width: 23em;
   height: 47em;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -48,7 +48,6 @@ header {
   transition: 0.5s ease-in-out;
   top: 0;
   right: -23em;
-  display: none;
 }
 
 li {
