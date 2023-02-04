@@ -41,17 +41,27 @@ header {
   justify-content: flex-start;
   align-items: center;
   position: absolute;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   z-index: 1;
   transition: 0.5s ease-in-out;
-}
-
-.popup-menu {
   top: 0;
   right: -23em;
   display: none;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+form ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
 }
 
 .popup-menu li {
@@ -62,6 +72,17 @@ header {
   padding-top: 1em;
   right: 0;
   top: 0;
+}
+
+a {
+  margin-right: 1rem;
+  list-style-type: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #e5e5e5;
 }
 
 .popup-menu li a {
@@ -189,22 +210,6 @@ p {
   color: #fff;
 }
 
-li {
-  list-style-type: none;
-  margin-right: 1rem;
-}
-
-a {
-  margin-right: 1rem;
-  list-style-type: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #e5e5e5;
-}
-
 /* ----------------------my works-------------------------------- */
 .myworks {
   display: flex;
@@ -285,14 +290,6 @@ a {
   float: left;
   list-style-type: none;
   margin: 0 0 1rem -0.5rem;
-}
-
-form ul li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-top: 2rem;
 }
 
 .details-right1 li {
