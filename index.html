@@ -19,6 +19,7 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@500;700&display=swap"
             rel="stylesheet">
+            <script src="script.js"></script>
 </head>
 
 <body>
@@ -26,15 +27,22 @@
     <!----------navbar setion------------------->
     <header>
     <nav class="nav-container">
-        <a class="Johnd" href=""></a>
-        <a class="menu" href="#"></a>
+       
+        <a class="Johnd" href="#"></a>
+        <a class="menu" href="#" onclick="displayPopUp()"></a>
         <ul class="menu-items">
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href=""><img src="./images/msg.png"></a></li>
+            <li><a href="#my-works">Portfolio</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+            <li><a href="#"><img src="./images/msg.png"></a></li>
         </ul>
     </nav>
+    <ul class="popup-menu" id="popup-menu-id">
+        <li class="cross" onclick="closePopUp()"><a href=""><i class="fa-sharp fa-solid fa-circle-xmark" ></i></a></li>
+        <li><a href="#my-works">Portfolio</a></li>
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#contact-me">Conatct</a></li>
+    </ul>
     </header>
     
     <!--------------Hero section------------------------------------------->
@@ -60,7 +68,7 @@
     </section>
 
     <!------------------myworks---------------------------------------->
-    <div class="myworks">
+    <div class="myworks" id="my-works">
         <div class="work-heading">
             <h4>My Recent Works</h4>
             <hr class="hline">
@@ -163,7 +171,7 @@
 
     </div>
     <!------------------about me------------------------------------------------>
-    <div class="aboutme-container">
+    <div class="aboutme-container" id="about-me">
               <div class="aboutme-row1">
                     <div class="aboutme-left">
                     <h4>About me</h4>
@@ -217,7 +225,7 @@
     </div>
 
 <!---------  contact form ------------------------------------->
-<form action="https://formspree.io/f/mqkoavny" method="post">
+<form action="https://formspree.io/f/mqkoavny" method="post" id="contact-me">
     <ul class="contact-ul">
       <div class="contact-left"> <li><h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2></li>
      </div>
