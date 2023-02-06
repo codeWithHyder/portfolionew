@@ -115,7 +115,8 @@ form ul li {
 }
 
 .popup-menu li:not(.cross):hover {
-  transition: ease-in-out 0.5s;
+   background-color: #3c3a39;
+   transition: ease-in-out 0.5s;
 }
 
 a {
@@ -149,9 +150,10 @@ a {
 }
 
 .cross img {
-  width: 1em;
-  height: 1em;
-  padding-left: 6.5em;
+  width: 0.5em;
+  height: 0.5em;
+  padding-left: 6.7em;
+  padding-top: 0.5em;
 }
 
 ul {
