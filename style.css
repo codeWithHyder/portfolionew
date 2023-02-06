@@ -115,8 +115,8 @@ form ul li {
 }
 
 .popup-menu li:not(.cross):hover {
-   background-color: #3c3a39;
-   transition: ease-in-out 0.5s;
+  background-color: #3c3a39;
+  transition: ease-in-out 0.5s;
 }
 
 a {
