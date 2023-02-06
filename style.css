@@ -36,6 +36,8 @@ header {
   box-sizing: border-box;
   width: 23em;
   height: 47em;
+  top: 0;
+  right: -23em;
   display: none;
   flex-direction: column;
   justify-content: flex-start;
@@ -44,10 +46,8 @@ header {
   background-color: #3c3a39;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  z-index: 1;
-  transition: 0.5s ease-in-out;
-  top: 0;
-  right: -23em;
+  z-index: 2;
+  transition: ease-in-out 0.5s;
 }
 
 li {
@@ -71,6 +71,14 @@ form ul li {
   padding-top: 1em;
   right: 0;
   top: 0;
+  border-bottom: 1px solid #6f6c6b;
+  cursor: pointer;
+}
+
+.popup-menu li:not(.cross):hover  {
+  background-color: #6f6c6b;
+  font-size: 1em;
+  transition: ease-in-out 0.5s;
 }
 
 a {
@@ -88,7 +96,7 @@ a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 3em;
+  line-height: 0.5em;
   color: #fff5e1;
   font-size: 1.5em;
   text-decoration: none;
@@ -100,6 +108,7 @@ a {
   margin-top: 0;
   padding-top: 0;
   padding-right: 1em;
+  border: none;
 }
 
 ul {
