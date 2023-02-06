@@ -75,7 +75,41 @@ form ul li {
   cursor: pointer;
 }
 
-.popup-menu li:not(.cross):hover  {
+.details-right1 li {
+  width: fit-content;
+  border: 1px solid #8993a4;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #091e42;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.work li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 0.5rem;
+}
+
+.aboutme-row2 ul li {
+  padding: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 194%;
+  text-align: center;
+  color: #fff;
+}
+
+.popup-menu li:not(.cross):hover {
   background-color: #6f6c6b;
   font-size: 1em;
   transition: ease-in-out 0.5s;
@@ -300,18 +334,6 @@ p {
   margin: 0 0 1rem -0.5rem;
 }
 
-.details-right1 li {
-  width: fit-content;
-  border: 1px solid #8993a4;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #091e42;
-  padding: 0.5rem;
-  margin: 0.5rem;
-}
-
 button {
   align-items: center;
   width: 10em;
@@ -423,17 +445,6 @@ button:hover {
   margin-left: 10%;
 }
 
-.work li {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.24);
-  padding: 0.5rem;
-}
-
 .work button {
   width: 100%;
   margin: 1rem 0 0 0;
@@ -511,17 +522,6 @@ button:hover {
 .aboutme-row2 ul {
   display: flex;
   flex-direction: column;
-}
-
-.aboutme-row2 ul li {
-  padding: 1rem;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 194%;
-  text-align: center;
-  color: #fff;
 }
 
 /* -----------------------contact form --------------------------------- */
