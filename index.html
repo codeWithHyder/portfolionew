@@ -19,6 +19,7 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@300&family=Roboto:wght@500;700&display=swap"
             rel="stylesheet">
+            <script src="script.js"></script>
 </head>
 
 <body>
@@ -26,15 +27,22 @@
     <!----------navbar setion------------------->
     <header>
     <nav class="nav-container">
-        <a class="Johnd" href=""></a>
-        <a class="menu" href="#"></a>
-        <ul>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href=""><img src="/images/msg.png"></a></li>
+       
+        <a class="Johnd" href="#"></a>
+        <a class="menu" href="#" onclick="displayPopUp()"></a>
+        <ul class="menu-items">
+            <li><a href="#my-works">Portfolio</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+            <li><a href="#"><img src="./images/msg.png"></a></li>
         </ul>
     </nav>
+    <ul class="popup-menu" id="popup-menu-id">
+        <li class="cross" id="cross-id"><a href=""><img src="./images/cross.png" onclick="closePopUp()"></a></li>
+        <li id="portFolio-id" ><a href="#my-works" onclick="closePopUp()">Portfolio</a></li>
+        <li id="aboutMe-id" ><a href="#about-me" onclick="closePopUp()">About</a></li>
+        <li id="contactMe-id"><a href="#contact-me" onclick="closePopUp()">Contact</a></li>
+    </ul>
     </header>
     
     <!--------------Hero section------------------------------------------->
@@ -60,7 +68,7 @@
     </section>
 
     <!------------------myworks---------------------------------------->
-    <div class="myworks">
+    <div class="myworks" id="my-works">
         <div class="work-heading">
             <h4>My Recent Works</h4>
             <hr class="hline">
@@ -79,7 +87,7 @@
                         <li>CSS</li>
                         <li>JavaScript</li>
                     </ul>
-                    <button class="btn">See Projects</button>
+                    <button class="btn" type="button">See Projects</button>
 
                 </div>
             </div>
@@ -94,7 +102,7 @@
                         <li>CSS</li>
                         <li>Javascript</li>
                     </ul>
-                    <button>See Project</button>
+                    <button type="button">See Project</button>
                 </div>
                 <div class=" work wdr22">
                     <h4>Profesional Art Printing Data More</h4>
@@ -106,7 +114,7 @@
                         <li>CSS</li>
                         <li>Javascript</li>
                     </ul>
-                    <button>See Project</button>
+                    <button type="button">See Project</button>
                 </div>
                 <div class=" work wdr23">
                     <h4>Profesional Art Printing Data More</h4>
@@ -118,7 +126,7 @@
                         <li>CSS</li>
                         <li>Javascript</li>
                     </ul>
-                    <button>See Project</button>
+                    <button type="button">See Project</button>
                 </div>
                 <div class="work wdr31">
                     <h4>Profesional Art Printing Data More</h4>
@@ -130,7 +138,7 @@
                         <li>CSS</li>
                         <li>Javascript</li>
                     </ul>
-                    <button>See Project</button>
+                    <button type="button">See Project</button>
                 </div>
 
                 <div class="work wdr32">
@@ -143,7 +151,7 @@
                         <li>CSS</li>
                         <li>Javascript</li>
                     </ul>
-                    <button>See Project</button>
+                    <button type="button">See Project</button>
                 </div>
                 <div class="work wdr33">
                     <h4>Profesional Art Printing Data More</h4>
@@ -155,7 +163,7 @@
                         <li>CSS</li>
                         <li>Javascript</li>
                     </ul>
-                    <button>See Project</button>
+                    <button type="button">See Project</button>
                 </div>
                 </div>
 
@@ -163,14 +171,14 @@
 
     </div>
     <!------------------about me------------------------------------------------>
-    <div class="aboutme-container">
+    <div class="aboutme-container" id="about-me">
               <div class="aboutme-row1">
                     <div class="aboutme-left">
                     <h4>About me</h4>
                     <p>Hey there! I can help you build a product, feature or website. Look through some of my work and
                         experience! If you like
                         what you see and have a project you need coded, don’t hesitate to contact me.</p>
-                        <button class="gr">Get My Resume</button>
+                        <button type="button" class="gr">Get My Resume</button>
                   </div>
                   <div class="aboutme-right">
                     
@@ -217,14 +225,14 @@
     </div>
 
 <!---------  contact form ------------------------------------->
-<form action="https://formspree.io/f/mqkoavny" method="post">
+<form action="https://formspree.io/f/mqkoavny" method="post" id="contact-me">
     <ul class="contact-ul">
       <div class="contact-left"> <li><h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2></li>
      </div>
        <div class="contact-right"> <li><input type="text" name="user-name" id="user-name" placeholder="Full name" required maxlength="30"></li>
             <li><input type="email" name="email" id="email" placeholder="Email address" required></li>
             <li><textarea name="message" id="message" maxlength="500" placeholder="Enter text here" required></textarea></li>
-            <li><button id="get-in-touch" name="get-in-touch">Get in touch</button></li>
+            <li><button type="button" id="get-in-touch" name="get-in-touch">Get in touch</button></li>
         </div>
     </ul>
 </form>  
