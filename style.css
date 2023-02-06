@@ -34,7 +34,7 @@ header {
   margin-top: 1em;
   padding: 0;
   box-sizing: border-box;
-  width: 23em;
+  width: 25em;
   height: 47em;
   top: 0;
   right: -23em;
@@ -48,6 +48,7 @@ header {
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   z-index: 2;
   transition: ease-in-out 0.5s;
+  cursor: pointer;
 }
 
 li {
@@ -58,17 +59,21 @@ li {
 form ul li {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   margin-top: 2rem;
 }
 
 .popup-menu li {
-  width: 90%;
+  width: 80%;
   height: 2em;
-  margin: 1em auto;
-  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  margin: 1em 1em;
+  text-align: left;
   padding-top: 1em;
+  padding-left: 0.5em;
   right: 0;
   top: 0;
   border-bottom: 1px solid #6f6c6b;
@@ -110,8 +115,6 @@ form ul li {
 }
 
 .popup-menu li:not(.cross):hover {
-  background-color: #6f6c6b;
-  font-size: 1em;
   transition: ease-in-out 0.5s;
 }
 
@@ -137,12 +140,18 @@ a {
 }
 
 .popup-menu .cross {
-  width: 90%;
-  text-align: right;
+  width: 70%;
   margin-top: 0;
   padding-top: 0;
-  padding-right: 1em;
+  margin-left: 0;
+  padding-right: 2em;
   border: none;
+}
+
+.cross img {
+  width: 1em;
+  height: 1em;
+  padding-left: 6.5em;
 }
 
 ul {
