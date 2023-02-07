@@ -586,7 +586,6 @@ form ul li button:hover {
 }
 
 .modal {
-  
   position: fixed;
   top: 50%;
   left: 50%;
@@ -704,7 +703,6 @@ form ul li button:hover {
 }
 
 /* --------------------css for bigger screens------------------------------ */
-
 @media only screen and (min-width: 768px) {
   main {
     width: 100%;
@@ -960,7 +958,6 @@ form ul li button:hover {
   .modalbody-right .modal-source-live {
     width: 100%;
     display: inline-flex;
-    margin-top: 10rem;
     margin-left: 0;
     justify-content: center;
     margin-top: 1rem;
