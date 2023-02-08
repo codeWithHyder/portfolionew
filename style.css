@@ -702,7 +702,6 @@ form ul li button:hover {
   justify-content: center;
   column-gap: 0.5em;
   width: 100%;
-  display: inline-flex;
   margin-top: 1rem;
   margin-left: 0;
 }
