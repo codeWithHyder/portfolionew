@@ -1,10 +1,9 @@
 //call to all sections of portfolio
-let headerSection=document.querySelector("#header-section");
-let heroSection=document.querySelector("#hero-section");
-//let workSection=document.querySelector("#my-works");
-let aboutMeSection=document.querySelector("#about-me");
-let contactFormSection=document.querySelector("#contact-me");
-let footerSection=document.querySelector("#footer-id");
+const headerSection=document.querySelector("#header-section");
+const heroSection=document.querySelector("#hero-section");
+const aboutMeSection=document.querySelector("#about-me");
+const contactFormSection=document.querySelector("#contactform");
+const footerSection=document.querySelector("#footer-id");
 
 // Open mobile popup menu
 function displayPopUp(){
@@ -31,7 +30,8 @@ const workInfo={
   myRecentPr: 'My Recent Projects',
   seeProject: 'See Project',
   bgImg: './images/Img Placeholder (1).png',
-  prTitle:'Profesional Art Printing Data More',
+  prTitle1:'Profesional Art Printing Data More',
+  prTitle2:'Multi-Post Stories',
   prDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has  been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   techList: ['HTML','CSS','Javascript']
 };
@@ -50,7 +50,7 @@ const divSection=document.createElement('div');
             <div class="work-details-row1">
                 <img src="${workInfo.bgImg}">
                 <div class="details-right1">
-                    <h4>${workInfo.prTitle}</h4>
+                    <h4>${workInfo.prTitle2}</h4>
                     <p>${workInfo.prDesc}</p>
                     <ul>
                         <li>${workInfo.techList[0]}</li>
@@ -63,7 +63,7 @@ const divSection=document.createElement('div');
             </div>
             <div class="card-work">
                     <div class=" work wdr21">
-                    <h4>${workInfo.prTitle}</h4>
+                    <h4>${workInfo.prTitle1}</h4>
                     <p>${workInfo.prDesc}</p>
                     <ul>
                         <li>${workInfo.techList[0]}</li>
@@ -73,7 +73,7 @@ const divSection=document.createElement('div');
                     <button type="button" id="seeProject-2">${workInfo.seeProject}</button>
                 </div>
                 <div class=" work wdr22">
-                    <h4>${workInfo.prTitle}</h4>
+                    <h4>${workInfo.prTitle1}</h4>
                     <p>${workInfo.prDesc}</p>
                     <ul>
                         <li>${workInfo.techList[0]}</li>
@@ -83,7 +83,7 @@ const divSection=document.createElement('div');
                     <button type="button" id="seeProject-3">${workInfo.seeProject}</button>
                 </div>
                 <div class=" work wdr23">
-                    <h4>${workInfo.prTitle}</h4>
+                    <h4>${workInfo.prTitle1}</h4>
                     <p>${workInfo.prDesc}</p>
                     <ul>
                         <li>${workInfo.techList[0]}</li>
@@ -93,7 +93,7 @@ const divSection=document.createElement('div');
                     <button type="button" id="seeProject-4">${workInfo.seeProject}</button>
                 </div>
                 <div class="work wdr31">
-                    <h4>${workInfo.prTitle}</h4>
+                    <h4>${workInfo.prTitle1}</h4>
                     <p>${workInfo.prDesc}</p>
                     <ul>
                         <li>${workInfo.techList[0]}</li>
@@ -104,7 +104,7 @@ const divSection=document.createElement('div');
                 </div>
 
                 <div class="work wdr32">
-                    <h4>${workInfo.prTitle}</h4>
+                    <h4>${workInfo.prTitle1}</h4>
                     <p>${workInfo.prDesc}</p>
                     <ul>
                         <li>${workInfo.techList[0]}</li>
@@ -114,7 +114,7 @@ const divSection=document.createElement('div');
                     <button type="button" id="seeProject-6">${workInfo.seeProject}</button>
                 </div>
                 <div class="work wdr33">
-                    <h4>${workInfo.prTitle}</h4>
+                    <h4>${workInfo.prTitle1}</h4>
                     <p>${workInfo.prDesc}</p>
                     <ul>
                         <li>${workInfo.techList[0]}</li>
@@ -130,9 +130,6 @@ const divSection=document.createElement('div');
     </div>`; 
 
 //popup window will go here for project details
-
-
-    
 
 //project iformation goes here as an array of objects
 const projectInfo=[
@@ -248,6 +245,7 @@ cardButtonsArray.forEach((buttonItem, index)=>{
   aboutMeSection.classList.toggle('blur');
   contactFormSection.classList.toggle('blur');
   footerSection.classList.toggle('blur');
+  
 
   //add markup for modal
   var bodyEle=document.querySelector('main');
