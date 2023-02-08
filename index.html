@@ -25,8 +25,8 @@
 <body>
 <main>
     <!----------navbar setion------------------->
-    <header id="header-section" class="blur">
-    <nav class="nav-container">
+    <header>
+    <nav class="nav-container" id="header-section" class="blur">
        
         <a class="Johnd" href="#"></a>
         <a class="menu" href="#" onclick="displayPopUp()"></a>
@@ -67,109 +67,8 @@
     </div>
     </section>
 
-    <!------------------myworks---------------------------------------->
-    <div class="myworks" id="my-works" class="blur">
-        <div class="work-heading">
-            <h4>My Recent Works</h4>
-            <hr class="hline">
-        </div>
-        <div class="work-details">
-            <div class="work-details-row1">
-                <img src="./images/Img Placeholder (1).png">
-                <div class="details-right1">
-                    <h4>Multi-Post Stories</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. This has
-                        been the industry's
-                        standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                    </p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <button class="btn" type="button" id="seeProject-1">See Projects</button>
-
-                </div>
-            </div>
-            <div class="card-work">
-                    <div class=" work wdr21">
-                    <h4>Profesional Art Printing Data More</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's standard
-                    </p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" id="seeProject-2">See Project</button>
-                </div>
-                <div class=" work wdr22">
-                    <h4>Profesional Art Printing Data More</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's standard
-                    </p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" id="seeProject-3">See Project</button>
-                </div>
-                <div class=" work wdr23">
-                    <h4>Profesional Art Printing Data More</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's standard
-                    </p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" id="seeProject-4">See Project</button>
-                </div>
-                <div class="work wdr31">
-                    <h4>Profesional Art Printing Data More</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's standard
-                    </p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" id="seeProject-5">See Project</button>
-                </div>
-
-                <div class="work wdr32">
-                    <h4>Profesional Art Printing Data More</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's standard
-                    </p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" id="seeProject-6">See Project</button>
-                </div>
-                <div class="work wdr33">
-                    <h4>Profesional Art Printing Data More</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                        industry's standard
-                    </p>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <button type="button" id="seeProject-7">See Project</button>
-                </div>
-                </div>
-
-        </div>
-
-    </div>
+    <!------------------myworks will go here from js---------------------------------------->
+     
     <!------------------about me------------------------------------------------>
     <div class="aboutme-container" id="about-me" class="blur">
               <div class="aboutme-row1">
@@ -225,17 +124,19 @@
     </div>
 
 <!---------  contact form ------------------------------------->
-<form action="https://formspree.io/f/mqkoavny" method="post" id="contact-me" class="blur">
-    <ul class="contact-ul">
-      <div class="contact-left"> <li><h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2></li>
-     </div>
-       <div class="contact-right"> <li><input type="text" name="user-name" id="user-name" placeholder="Full name" required maxlength="30"></li>
-            <li><input type="email" name="email" id="email" placeholder="Email address" required></li>
-            <li><textarea name="message" id="message" maxlength="500" placeholder="Enter text here" required></textarea></li>
-            <li><button type="button" id="get-in-touch" name="get-in-touch">Get in touch</button></li>
+<div id="contact-me" class="blur">
+    <form action="https://formspree.io/f/mqkoavny" method="post" >
+        <ul class="contact-ul">
+        <div class="contact-left"> <li><h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2></li>
         </div>
-    </ul>
-</form>  
+        <div class="contact-right"> <li><input type="text" name="user-name" id="user-name" placeholder="Full name" required maxlength="30"></li>
+                <li><input type="email" name="email" id="email" placeholder="Email address" required></li>
+                <li><textarea name="message" id="message" maxlength="500" placeholder="Enter text here" required></textarea></li>
+                <li><button type="button" id="get-in-touch" name="get-in-touch">Get in touch</button></li>
+            </div>
+        </ul>
+    </form>  
+</div>
 
 <!----------------------------- footer--------------------->
 <footer id="footer-id" class="blur">

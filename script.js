@@ -1,3 +1,11 @@
+//call to all sections of portfolio
+let headerSection=document.querySelector("#header-section");
+let heroSection=document.querySelector("#hero-section");
+//let workSection=document.querySelector("#my-works");
+let aboutMeSection=document.querySelector("#about-me");
+let contactFormSection=document.querySelector("#contact-me");
+let footerSection=document.querySelector("#footer-id");
+
 // Open mobile popup menu
 function displayPopUp(){
  const pop_up_menu=document.querySelector("#popup-menu-id");
@@ -14,26 +22,117 @@ function closePopUp(){
   pop_up_menu.style.display="none";
  }
 
+
+
+
+
+//workinfo object 
+const workInfo={
+  myRecentPr: 'My Recent Projects',
+  seeProject: 'See Project',
+  bgImg: './images/Img Placeholder (1).png',
+  prTitle:'Profesional Art Printing Data More',
+  prDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has  been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  techList: ['HTML','CSS','Javascript']
+};
+
+
+// markup work section from the wworkinfo array object
+var mainElmnt=document.querySelector('main');
+const divSection=document.createElement('div');
+  mainElmnt.insertBefore(divSection,aboutMeSection);
+  divSection.innerHTML=`<div class="myworks" id="my-works" class="blur">
+        <div class="work-heading">
+            <h4>${workInfo.myRecentPr}</h4>
+            <hr class="hline">
+        </div>
+        <div class="work-details" id="work-details">
+            <div class="work-details-row1">
+                <img src="${workInfo.bgImg}">
+                <div class="details-right1">
+                    <h4>${workInfo.prTitle}</h4>
+                    <p>${workInfo.prDesc}</p>
+                    <ul>
+                        <li>${workInfo.techList[0]}</li>
+                        <li>${workInfo.techList[1]}</li>
+                        <li>${workInfo.techList[2]}</li>
+                    </ul>
+                    <button class="btn" type="button" id="seeProject-1">${workInfo.seeProject}</button>
+
+                </div>
+            </div>
+            <div class="card-work">
+                    <div class=" work wdr21">
+                    <h4>${workInfo.prTitle}</h4>
+                    <p>${workInfo.prDesc}</p>
+                    <ul>
+                        <li>${workInfo.techList[0]}</li>
+                        <li>${workInfo.techList[1]}</li>
+                        <li>${workInfo.techList[2]}</li>
+                    </ul>
+                    <button type="button" id="seeProject-2">${workInfo.seeProject}</button>
+                </div>
+                <div class=" work wdr22">
+                    <h4>${workInfo.prTitle}</h4>
+                    <p>${workInfo.prDesc}</p>
+                    <ul>
+                        <li>${workInfo.techList[0]}</li>
+                        <li>${workInfo.techList[1]}</li>
+                        <li>${workInfo.techList[2]}</li>
+                    </ul>
+                    <button type="button" id="seeProject-3">${workInfo.seeProject}</button>
+                </div>
+                <div class=" work wdr23">
+                    <h4>${workInfo.prTitle}</h4>
+                    <p>${workInfo.prDesc}</p>
+                    <ul>
+                        <li>${workInfo.techList[0]}</li>
+                        <li>${workInfo.techList[1]}</li>
+                        <li>${workInfo.techList[2]}</li>
+                    </ul>
+                    <button type="button" id="seeProject-4">${workInfo.seeProject}</button>
+                </div>
+                <div class="work wdr31">
+                    <h4>${workInfo.prTitle}</h4>
+                    <p>${workInfo.prDesc}</p>
+                    <ul>
+                        <li>${workInfo.techList[0]}</li>
+                        <li>${workInfo.techList[1]}</li>
+                        <li>${workInfo.techList[2]}</li>
+                    </ul>
+                    <button type="button" id="seeProject-5">${workInfo.seeProject}</button>
+                </div>
+
+                <div class="work wdr32">
+                    <h4>${workInfo.prTitle}</h4>
+                    <p>${workInfo.prDesc}</p>
+                    <ul>
+                        <li>${workInfo.techList[0]}</li>
+                        <li>${workInfo.techList[1]}</li>
+                        <li>${workInfo.techList[2]}</li>
+                    </ul>
+                    <button type="button" id="seeProject-6">${workInfo.seeProject}</button>
+                </div>
+                <div class="work wdr33">
+                    <h4>${workInfo.prTitle}</h4>
+                    <p>${workInfo.prDesc}</p>
+                    <ul>
+                        <li>${workInfo.techList[0]}</li>
+                        <li>${workInfo.techList[1]}</li>
+                        <li>${workInfo.techList[2]}</li>
+                    </ul>
+                    <button type="button" id="seeProject-7">${workInfo.seeProject}</button>
+                </div>
+                </div>
+
+        </div>
+
+    </div>`; 
+
 //popup window will go here for project details
-//call to all sections of portfolio
-let headerSection=document.querySelector("#header-section");
-let heroSection=document.querySelector("#hero-section");
-let workSection=document.querySelector("#my-works");
-let aboutMeSection=document.querySelector("#about-me");
-let contactFormSection=document.querySelector("#contact-me");
-let footerSection=document.querySelector("#footer-id");
 
-//call to seeproject buttons on each card in work section
-const cardButtonsArray=[
-  document.querySelector("#seeProject-1"),
-  document.querySelector("#seeProject-2"),
-  document.querySelector("#seeProject-3"),
-  document.querySelector("#seeProject-4"),
-  document.querySelector("#seeProject-5"),
-  document.querySelector("#seeProject-6"),
-  document.querySelector("#seeProject-7"),
 
-];
+    
 
 //project iformation goes here as an array of objects
 const projectInfo=[
@@ -47,7 +146,6 @@ const projectInfo=[
     liveLink: 'https://codewithhyder.github.io/portfolionew/',
     buttonSource: 'See Source',
     sourceLink: 'https://github.com/codeWithHyder/portfolionew'
-
   },
 
   {
@@ -60,7 +158,6 @@ const projectInfo=[
     liveLink: 'https://codewithhyder.github.io/portfolionew/',
     buttonSource: 'See Source',
     sourceLink: 'https://github.com/codeWithHyder/portfolionew'
-
   },
 
   {
@@ -73,7 +170,6 @@ const projectInfo=[
     liveLink: 'https://codewithhyder.github.io/portfolionew/',
     buttonSource: 'See Source',
     sourceLink: 'https://github.com/codeWithHyder/portfolionew'
-
   },
 
   {
@@ -86,7 +182,6 @@ const projectInfo=[
     liveLink: 'https://codewithhyder.github.io/portfolionew/',
     buttonSource: 'See Source',
     sourceLink: 'https://github.com/codeWithHyder/portfolionew'
-
   },
 
   {
@@ -99,7 +194,6 @@ const projectInfo=[
     liveLink: 'https://codewithhyder.github.io/cloneyoutube/',
     buttonSource: 'See Source',
     sourceLink: 'https://github.com/codeWithHyder/cloneyoutube'
-
   },
 
   {
@@ -112,7 +206,6 @@ const projectInfo=[
     liveLink: 'https://codewithhyder.github.io/logindemo/',
     buttonSource: 'See Source',
     sourceLink: 'https://github.com/codeWithHyder/logindemo'
-
   },
 
   {
@@ -125,13 +218,24 @@ const projectInfo=[
     liveLink: 'https://codewithhyder.github.io/bdayreminder1/',
     buttonSource: 'See Source',
     sourceLink: 'https://github.com/codeWithHyder/bdayreminder1'
-
   },
 
 ];
 
-//link see project buttons to project info array respectively
+//call to seeproject buttons on each card in work section
+const cardButtonsArray=[
+  document.querySelector("#seeProject-1"),
+  document.querySelector("#seeProject-2"),
+  document.querySelector("#seeProject-3"),
+  document.querySelector("#seeProject-4"),
+  document.querySelector("#seeProject-5"),
+  document.querySelector("#seeProject-6"),
+  document.querySelector("#seeProject-7")
+];
 
+
+//link see project buttons to project info array respectively
+const worksSection=document.querySelector('#my-works');
 cardButtonsArray.forEach((buttonItem, index)=>{
   const items=projectInfo[index];
   //start popup window
@@ -140,15 +244,15 @@ cardButtonsArray.forEach((buttonItem, index)=>{
   //blur the website background
   headerSection.classList.toggle('blur');
   heroSection.classList.toggle('blur');
-  workSection.classList.toggle('blur');
+  worksSection.classList.toggle('blur');
   aboutMeSection.classList.toggle('blur');
   contactFormSection.classList.toggle('blur');
   footerSection.classList.toggle('blur');
 
   //add markup for modal
-  const bodyEle=document.querySelector('body');
+  var bodyEle=document.querySelector('main');
   const section=document.createElement('section');
-  bodyEle.appendChild(section);
+   bodyEle.appendChild(section);
   section.innerHTML=`<div class="modal" id="modal">
   
   <div class="modal-header" id="modal-header">
@@ -182,14 +286,23 @@ cardButtonsArray.forEach((buttonItem, index)=>{
     modalContainer.classList.toggle('modal-close');
     headerSection.classList.remove('blur');
     heroSection.classList.remove('blur');
-    workSection.classList.remove('blur');
+    worksSection.classList.remove('blur');
     aboutMeSection.classList.remove('blur');
     contactFormSection.classList.remove('blur');
     footerSection.classList.remove('blur');
-    const modalWindow = document.querySelector('body');
+    const modalWindow = document.querySelector('main');
     modalWindow.removeChild(modalWindow.lastElementChild);
   });
 });
 });
+
+    //temporay check
+   //let body= document.querySelector('body');
+   let newsection=document.createElement('div');
+   newsection.innerHTML=`<h1>hello </h1>`;
+   body.appendChild(newsection);
+  
+
+
 
 

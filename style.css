@@ -698,8 +698,9 @@ form ul li button:hover {
 }
 
 .modal-source-live .livebtn,
-.livesource {
+.sourcebtn {
   width: fit-content;
+  font-size: 0.8em;
 }
 
 /* --------------------css for bigger screens------------------------------ */
@@ -846,11 +847,11 @@ form ul li button:hover {
     height: 10rem;
     flex-direction: row;
     align-items: center;
-    width: 90%;
+    width: 100%;
   }
 
   .work-heading h4 {
-    width: 25rem;
+    width: 30rem;
     padding-left: 2rem;
     margin-bottom: 8rem;
   }
@@ -923,7 +924,7 @@ form ul li button:hover {
     display: none;
   }
 
-  /* ---------------CSS for desk or big  screens ---------------- */
+  /* ---------------CSS for modal ---------------- */
   .modal-body {
     width: 100%;
     display: flex;
@@ -953,6 +954,12 @@ form ul li button:hover {
     margin-top: 1.5rem;
     color: #344563;
     text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 30px;
+    
   }
 
   .modalbody-right .modal-source-live {
@@ -966,9 +973,10 @@ form ul li button:hover {
   }
 
   .modal-source-live .livebtn,
-  .livesource {
+  .modal-source-live .sourcebtn {
     width: fit-content;
-    margin-right: 2rem;
+    margin-right: 0.2rem;
+    font-size: 0.8em;
   }
 
   .aboutme-left h4 {
