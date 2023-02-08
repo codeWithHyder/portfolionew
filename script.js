@@ -1,7 +1,6 @@
 //call to all sections of portfolio
 let headerSection=document.querySelector("#header-section");
 let heroSection=document.querySelector("#hero-section");
-//let workSection=document.querySelector("#my-works");
 let aboutMeSection=document.querySelector("#about-me");
 let contactFormSection=document.querySelector("#contact-me");
 let footerSection=document.querySelector("#footer-id");
