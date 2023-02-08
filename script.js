@@ -1,17 +1,9 @@
 //call to all sections of portfolio
-<<<<<<< HEAD
 const headerSection=document.querySelector("#header-section");
 const heroSection=document.querySelector("#hero-section");
 const aboutMeSection=document.querySelector("#about-me");
 const contactFormSection=document.querySelector("#contactform");
 const footerSection=document.querySelector("#footer-id");
-=======
-let headerSection=document.querySelector("#header-section");
-let heroSection=document.querySelector("#hero-section");
-let aboutMeSection=document.querySelector("#about-me");
-let contactFormSection=document.querySelector("#contact-me");
-let footerSection=document.querySelector("#footer-id");
->>>>>>> 09cc1d87ee0ccc5addd3d79c528a08646cd3cc1b
 
 // Open mobile popup menu
 function displayPopUp(){

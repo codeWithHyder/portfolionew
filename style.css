@@ -697,6 +697,10 @@ form ul li button:hover {
 }
 
 .modal-source-live {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 0.5em;
   width: 100%;
   display: inline-flex;
   margin-top: 1rem;
@@ -969,7 +973,7 @@ form ul li button:hover {
 
   .modalbody-right .modal-source-live {
     width: 100%;
-    display: inline-flex;
+    display: flex;
     margin-left: 0;
     justify-content: center;
     margin-top: 1rem;
