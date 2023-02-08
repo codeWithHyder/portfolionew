@@ -274,14 +274,20 @@ p {
   width: 95%;
 }
 
+.work-heading {
+  width: 100%;
+  height: 15rem;
+  padding-top: 0;
+}
+
 .work-heading h4 {
-  margin: 8rem 2rem 0 0;
+  margin: 8rem 2rem 1rem 1rem;
   height: 83px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 2rem;
+  line-height: 1em;
   align-items: center;
   color: #1c1a19;
 }
@@ -393,8 +399,6 @@ button:hover {
   color: #ff6b00;
   cursor: pointer;
   outline-color: transparent;
-  outline-style: solid;
-  box-shadow: 0 0 0 2px #ff6b00;
 }
 
 .button:disabled {
@@ -580,6 +584,135 @@ form ul li button:hover {
   border: 1px solid #f55800;
 }
 
+/* ------- modal css goes here --------------------- */
+.blur {
+  filter: blur(0.5em);
+  user-select: none;
+  pointer-events: none;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  transition: 0.7s ease-in-out;
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  border: 1px solid #dfe1e6;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 0 1rem 1rem 1rem;
+  overflow-y: scroll;
+}
+
+.modal-close {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 138%;
+  background: #fff;
+  padding-top: 0.5em;
+  margin-bottom: 1rem;
+}
+
+.modal-header .cross-button {
+  background-color: transparent;
+  color: #3c3a39;
+  font-size: 2rem;
+  border: none;
+  order: 1;
+  width: 100%;
+  text-align: right;
+}
+
+.modal-header h2 {
+  width: fit-content;
+  height: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 0.5em;
+  color: #172b4d;
+  padding-top: 0.5em;
+  order: 2;
+}
+
+.tech-list {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+}
+
+.tech-list .tech-list1 {
+  border: 1px solid #101011;
+  width: fit-content;
+  height: 1.5em;
+  margin-right: 1em;
+  padding: 1em 0.5em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  font-style: normal;
+}
+
+.modal-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  height: auto;
+}
+
+.modal-body .modalbody-left {
+  width: 100%;
+  height: auto;
+}
+
+.modalbody-left img {
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+}
+
+.modal-body .modalbody-right {
+  width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+  color: #344563;
+  text-align: justify;
+}
+
+.modal-source-live {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 0.5em;
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: 0;
+}
+
+.modal-source-live .livebtn,
+.sourcebtn {
+  width: fit-content;
+  font-size: 0.8em;
+}
+
+/* --------------------css for bigger screens------------------------------ */
 @media only screen and (min-width: 768px) {
   main {
     width: 100%;
@@ -723,11 +856,11 @@ form ul li button:hover {
     height: 10rem;
     flex-direction: row;
     align-items: center;
-    width: 90%;
+    width: 100%;
   }
 
   .work-heading h4 {
-    width: 25rem;
+    width: 30rem;
     padding-left: 2rem;
     margin-bottom: 8rem;
   }
@@ -798,6 +931,60 @@ form ul li button:hover {
 
   .work button {
     display: none;
+  }
+
+  /* ---------------CSS for modal ---------------- */
+  .modal-body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    height: auto;
+  }
+
+  .modal-body .modalbody-left {
+    width: 60%;
+    height: auto;
+    margin-right: 2rem;
+  }
+
+  .modalbody-left img {
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+  }
+
+  .modal-body .modalbody-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 40%;
+    height: auto;
+    margin-top: 1.5rem;
+    color: #344563;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .modalbody-right .modal-source-live {
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    justify-content: center;
+    margin-top: 1rem;
+    height: auto;
+    padding-top: 20rem;
+  }
+
+  .modal-source-live .livebtn,
+  .modal-source-live .sourcebtn {
+    width: fit-content;
+    margin-right: 0.2rem;
+    font-size: 0.8em;
   }
 
   .aboutme-left h4 {
