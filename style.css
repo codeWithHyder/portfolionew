@@ -923,7 +923,7 @@ form ul li button:hover {
     display: none;
   }
 
-  /* --------------- modal for big screens ---------------- */
+  /* ---------------CSS for desk or big  screens ---------------- */
   .modal-body {
     width: 100%;
     display: flex;
@@ -933,7 +933,7 @@ form ul li button:hover {
   }
 
   .modal-body .modalbody-left {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin-right: 2rem;
   }
@@ -948,7 +948,7 @@ form ul li button:hover {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 50%;
+    width: 40%;
     height: auto;
     margin-top: 1.5rem;
     color: #344563;
