@@ -294,11 +294,25 @@ cardButtonsArray.forEach((buttonItem, index)=>{
 });
 });
 
-    //temporay check
-   //let body= document.querySelector('body');
-   let newsection=document.createElement('div');
-   newsection.innerHTML=`<h1>hello </h1>`;
-   body.appendChild(newsection);
+
+  //client side form validation 
+  const form=document.getElementById('contactform');
+  form.addEventListener('submit',formValidation);
+
+  //function definition here
+  function formValidation(e){
+    var emailSection=document.querySelector('#email');
+    var errMsg=document.querySelector('.errmsg');
+    if(emailSection.value!==emailSection.value.toLowerCase()){
+      errMsg.textContent='*Email must be in lower case';
+      errMsg.style.color='red';
+      emailSection.focus();
+      e.preventDefault();
+      e.stopPropagation();
+       return false;
+    }
+  }  
+
   
 
 
