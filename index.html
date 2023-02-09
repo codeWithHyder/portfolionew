@@ -33,7 +33,7 @@
         <ul class="menu-items">
             <li><a href="#my-works">Portfolio</a></li>
             <li><a href="#about-me">About</a></li>
-            <li><a href="#contact-me">Contact</a></li>
+            <li><a href="#contactform">Contact</a></li>
             <li><a href="#"><img src="./images/msg.png"></a></li>
         </ul>
     </nav>
@@ -41,7 +41,7 @@
         <li class="cross" id="cross-id"><a href=""><img src="./images/cross.png" onclick="closePopUp()"></a></li>
         <li id="portFolio-id" ><a href="#my-works" onclick="closePopUp()">Portfolio</a></li>
         <li id="aboutMe-id" ><a href="#about-me" onclick="closePopUp()">About</a></li>
-        <li id="contactMe-id"><a href="#contact-me" onclick="closePopUp()">Contact</a></li>
+        <li id="contactMe-id"><a href="#contactform" onclick="closePopUp()">Contact</a></li>
     </ul>
     </header>
     
@@ -132,7 +132,8 @@
         <div class="contact-right"> <li><input type="text" name="user-name" id="user-name" placeholder="Full name" required maxlength="30"></li>
                 <li><input type="email" name="email" id="email" placeholder="Email address" required></li>
                 <li><textarea name="message" id="message" maxlength="500" placeholder="Enter text here" required></textarea></li>
-                <li><button type="button" id="get-in-touch" name="get-in-touch">Get in touch</button></li>
+                <li><button type="submit" id="get-in-touch" name="get-in-touch">Get in touch</button></li>
+                <span class="errmsg"></span>
             </div>
         </ul>
     </form>  
