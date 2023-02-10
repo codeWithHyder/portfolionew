@@ -311,3 +311,29 @@ function formValidation(e) {
 
 const form = document.getElementById('contactform');
 form.addEventListener('submit', formValidation);
+
+// local storage
+const myForm = document.querySelector('#contactform');
+
+// saving form data to local storage
+myForm.addEventListener('input', () => {
+  const info = {
+    name: document.querySelector('#user-name').value,
+    email: document.querySelector('#email').value,
+    message: document.querySelector('#message').value,
+  };
+  localStorage.setItem('storedData', JSON.stringify(info));
+});
+
+// get data from local storage
+let userObject = JSON.parse(localStorage.getItem('storedData'));
+if (!userObject) {
+  userObject = {
+    name: '',
+    email: '',
+    message: '',
+  };
+  document.querySelector('#user-name').value = userObject.name;
+  document.querySelector('#email').value = userObject.email;
+  document.querySelector('#message').value = userObject.message;
+}
