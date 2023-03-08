@@ -180,15 +180,15 @@ const projectInfo = [
   },
 
   {
-    prName: 'YouTube Clone',
-    prDesc: 'To screen online videos on it like youtube',
+    prName: 'AwsomeBooks list with Featured',
+    prDesc: 'To add or remove list of books',
     techList: ['HTML', 'CSS', 'Javascript'],
-    backgroundImg: './images/sm-pr-youtubeclone.png',
+    backgroundImg: './images/awesomebook screen shot.png',
     pg: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     buttonLive: 'See Live',
-    liveLink: 'https://codewithhyder.github.io/cloneyoutube/',
+    liveLink: 'https://codewithhyder.github.io/awesomebook-es6-module/',
     buttonSource: 'See Source',
-    sourceLink: 'https://github.com/codeWithHyder/cloneyoutube',
+    sourceLink: 'https://github.com/codeWithHyder/awesomebook-module1',
   },
 
   {
@@ -311,3 +311,32 @@ function formValidation(e) {
 
 const form = document.getElementById('contactform');
 form.addEventListener('submit', formValidation);
+
+// local storage
+
+const myForm = document.querySelector('#contactform');
+const userName = document.querySelector('#user-name');
+const userEmail = document.querySelector('#email');
+const userMsg = document.querySelector('#message');
+// saving form data to local storage
+myForm.addEventListener('input', () => {
+  const info = {
+    name: userName.value,
+    email: userEmail.value,
+    message: userMsg.value,
+  };
+  localStorage.setItem('storedData', JSON.stringify(info));
+});
+
+// get data from local storage
+let userObject = JSON.parse(localStorage.getItem('storedData'));
+if (!userObject) {
+  userObject = {
+    name: '',
+    email: '',
+    message: '',
+  };
+  userName.value = userObject.name;
+  userEmail.value = userObject.email;
+  userMsg.value = userObject.message;
+}
