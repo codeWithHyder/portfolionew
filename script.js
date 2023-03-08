@@ -1,4 +1,3 @@
-
 // call to all sections of portfolio
 
 const headerSection = document.querySelector('#header-section');
@@ -313,7 +312,6 @@ function formValidation(e) {
 const form = document.getElementById('contactform');
 form.addEventListener('submit', formValidation);
 
-
 // local storage
 
 const myForm = document.querySelector('#contactform');
@@ -331,14 +329,14 @@ myForm.addEventListener('input', () => {
 });
 
 // get data from local storage
-const userObject = JSON.parse(localStorage.getItem('storedData'));
+let userObject = JSON.parse(localStorage.getItem('storedData'));
 if (!userObject) {
   userObject = {
     name: '',
     email: '',
     message: '',
-  }; 
+  };
   userName.value = userObject.name;
   userEmail.value = userObject.email;
   userMsg.value = userObject.message;
-} 
+}
