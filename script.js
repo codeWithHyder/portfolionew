@@ -24,16 +24,75 @@ function closePopUp() {
 
 // workinfo object
 
-const workInfo = {
+const workInfo1 = {
   myRecentPr: 'My Recent Projects',
   seeProject: 'See Project',
-  bgImg: './images/Img Placeholder (1).png',
-  prTitle1: 'Profesional Art Printing Data More',
-  prTitle2: 'Multi-Post Stories',
-  prDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required. This has  been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  bgImg: './images/final capstaon.PNG',
+  prTitle1: 'House Agency- A personalised choice',
+  prTitle2: 'House Agency',
+  prDesc: 'Discover your perfect home with us – where comfort meets affordability. At our agency, we specialize in providing top-quality rental houses at the best prices in the market. Whether you are looking for a cozy apartment or a spacious family house, we have a wide range of options to suit your needs.',
+  techList: ['HTML', 'CSS', 'Javascript', 'React & Redux', 'Ruby On rails'],
+};
+
+const workInfo2 = {
+  myRecentPr: 'Astronomy Picture of the day',
+  seeProject: 'See Project',
+  bgImg: './images/astronomy pic of the day.PNG',
+  prTitle1: 'Astronomy- Picture of the Day',
+  prTitle2: 'Astronomy- Picture of the Day',
+  prDesc: '[Astronomy picture of the day] is a web app. for learning APIs, ES6 modules and webpack, and it is a simple website that displays list of name score of different people.',
+  techList: ['HTML', 'CSS', 'Javascript', 'ES6', 'Webpack'],
+};
+
+const workInfo3 = {
+  myRecentPr: 'Space Travelers\' Hub',
+  seeProject: 'See Project',
+  bgImg: './images/space travellers.PNG',
+  prTitle1: 'Space Travellers- A personalised ride',
+  prTitle2: 'Space Travellers',
+  prDesc: 'Space Travelers\' Hub is a simple Project built through react npx create-react-app. User can interact by making reservation for space rockets. In future versions there is going to add more features to the website version of Space Travelers Hub Project.',
+  techList: ['HTML', 'CSS', 'Javascript', 'React & Redux'],
+};
+
+const workInfo4 = {
+  myRecentPr: 'To do List',
+  seeProject: 'See Project',
+  bgImg: './images/to do list.PNG',
+  prTitle1: 'To do list- To list daily tasks',
+  prTitle2: 'To do list',
+  prDesc: '[To Do List] is a web app. for learning ES6 modules and webpack, and it is a simple website that displays a list of To do tasks and allows you to add and remove tasks from that list.',
+  techList: ['HTML', 'CSS', 'Javascript', 'React & Redux'],
+};
+
+const workInfo5 = {
+  myRecentPr: 'AwsomeBooks list with Featured',
+  seeProject: 'See Project',
+  bgImg: './images/awesomebook screen shot.png',
+  prTitle1: 'AwsomeBooks',
+  prTitle2: 'AwsomeBooks',
+  prDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+  techList: ['HTML', 'CSS', 'Javascript', 'React & Redux'],
+};
+
+const workInfo6 = {
+  myRecentPr: 'Exhibition Page',
+  seeProject: 'See Project',
+  bgImg: './images/gurez festival.PNG',
+  prTitle1: 'Gurez Festival- Border Tourism',
+  prTitle2: 'Gurez Festival',
+  prDesc: 'Gurez Festival :Every year Civil Administration Bandipore with Tourism Department conducts events regarding border tourism programs, multiple departments take part in the festivals to showcase their skills, products and facilities they provide to boder poeople.',
   techList: ['HTML', 'CSS', 'Javascript'],
 };
 
+const workInfo7 = {
+  myRecentPr: 'CRYPTOIST',
+  seeProject: 'See Project',
+  bgImg: './images/criptoist.PNG',
+  prTitle1: 'Cryptoist- the crypto currency',
+  prTitle2: 'Cryptoist',
+  prDesc: '[CRYPTOIST] This project is a SPA built around coingeco\'s Api; it fetches the crypto market\'s data and displays it to the user for informative purposes in well-structured and interactive UI with help of Redux toolkit builtin middle ware Asyncthunk .',
+  techList: ['HTML', 'CSS', 'Javascript'],
+};
 // markup work section from the wworkinfo array object
 
 const mainElmnt = document.querySelector('main');
@@ -41,85 +100,86 @@ const divSection = document.createElement('div');
 mainElmnt.insertBefore(divSection, aboutMeSection);
 divSection.innerHTML = `<div class="myworks" id="my-works" class="blur">
         <div class="work-heading">
-            <h4>${workInfo.myRecentPr}</h4>
+            <h4>${workInfo1.myRecentPr}</h4>
             <hr class="hline">
         </div>
         <div class="work-details" id="work-details">
             <div class="work-details-row1">
-                <img src="${workInfo.bgImg}">
+                <img src="${workInfo1.bgImg}">
                 <div class="details-right1">
-                    <h4>${workInfo.prTitle2}</h4>
-                    <p>${workInfo.prDesc}</p>
+                    <h4>${workInfo1.prTitle2}</h4>
+                    <p>${workInfo1.prDesc}</p>
                     <ul>
-                        <li>${workInfo.techList[0]}</li>
-                        <li>${workInfo.techList[1]}</li>
-                        <li>${workInfo.techList[2]}</li>
+                        <li>${workInfo1.techList[0]}</li>
+                        <li>${workInfo1.techList[1]}</li>
+                        <li>${workInfo1.techList[2]}</li>
+                        <li>${workInfo1.techList[3]}</li>
+                        <li>${workInfo1.techList[4]}</li>
                     </ul>
-                    <button class="btn" type="button" id="seeProject-1">${workInfo.seeProject}</button>
-
+                    <button class="btn" type="button" id="seeProject-1">${workInfo1.seeProject}</button>
                 </div>
             </div>
             <div class="card-work">
                     <div class=" work wdr21">
-                    <h4>${workInfo.prTitle1}</h4>
-                    <p>${workInfo.prDesc}</p>
+                    <h4>${workInfo2.prTitle1}</h4>
+                    <p>${workInfo2.prDesc}</p>
                     <ul>
-                        <li>${workInfo.techList[0]}</li>
-                        <li>${workInfo.techList[1]}</li>
-                        <li>${workInfo.techList[2]}</li>
+                        <li>${workInfo2.techList[0]}</li>
+                        <li>${workInfo2.techList[1]}</li>
+                        <li>${workInfo2.techList[2]}</li>
                     </ul>
-                    <button type="button" id="seeProject-2">${workInfo.seeProject}</button>
+                    <button type="button" id="seeProject-2">${workInfo2.seeProject}</button>
                 </div>
                 <div class=" work wdr22">
-                    <h4>${workInfo.prTitle1}</h4>
-                    <p>${workInfo.prDesc}</p>
+                    <h4>${workInfo3.prTitle1}</h4>
+                    <p>${workInfo3.prDesc}</p>
                     <ul>
-                        <li>${workInfo.techList[0]}</li>
-                        <li>${workInfo.techList[1]}</li>
-                        <li>${workInfo.techList[2]}</li>
+                        <li>${workInfo3.techList[0]}</li>
+                        <li>${workInfo3.techList[1]}</li>
+                        <li>${workInfo3.techList[2]}</li>
                     </ul>
-                    <button type="button" id="seeProject-3">${workInfo.seeProject}</button>
+                    <button type="button" id="seeProject-3">${workInfo3.seeProject}</button>
                 </div>
                 <div class=" work wdr23">
-                    <h4>${workInfo.prTitle1}</h4>
-                    <p>${workInfo.prDesc}</p>
+                    <h4>${workInfo4.prTitle1}</h4>
+                    <p>${workInfo4.prDesc}</p>
                     <ul>
-                        <li>${workInfo.techList[0]}</li>
-                        <li>${workInfo.techList[1]}</li>
-                        <li>${workInfo.techList[2]}</li>
+                        <li>${workInfo4.techList[0]}</li>
+                        <li>${workInfo4.techList[1]}</li>
+                        <li>${workInfo4.techList[2]}</li>
                     </ul>
-                    <button type="button" id="seeProject-4">${workInfo.seeProject}</button>
+                    <button type="button" id="seeProject-4">${workInfo4.seeProject}</button>
                 </div>
                 <div class="work wdr31">
-                    <h4>${workInfo.prTitle1}</h4>
-                    <p>${workInfo.prDesc}</p>
+                    <h4>${workInfo5.prTitle1}</h4>
+                    <p>${workInfo5.prDesc}</p>
                     <ul>
-                        <li>${workInfo.techList[0]}</li>
-                        <li>${workInfo.techList[1]}</li>
-                        <li>${workInfo.techList[2]}</li>
+                        <li>${workInfo5.techList[0]}</li>
+                        <li>${workInfo5.techList[1]}</li>
+                        <li>${workInfo5.techList[2]}</li>
                     </ul>
-                    <button type="button" id="seeProject-5">${workInfo.seeProject}</button>
+                    <button type="button" id="seeProject-5">${workInfo5.seeProject}</button>
                 </div>
 
                 <div class="work wdr32">
-                    <h4>${workInfo.prTitle1}</h4>
-                    <p>${workInfo.prDesc}</p>
+                    <h4>${workInfo6.prTitle1}</h4>
+                    <p>${workInfo6.prDesc}</p>
                     <ul>
-                        <li>${workInfo.techList[0]}</li>
-                        <li>${workInfo.techList[1]}</li>
-                        <li>${workInfo.techList[2]}</li>
+                        <li>${workInfo6.techList[0]}</li>
+                        <li>${workInfo6.techList[1]}</li>
+                        <li>${workInfo6.techList[2]}</li>
                     </ul>
-                    <button type="button" id="seeProject-6">${workInfo.seeProject}</button>
+                    <button type="button" id="seeProject-6">${workInfo6.seeProject}</button>
                 </div>
                 <div class="work wdr33">
-                    <h4>${workInfo.prTitle1}</h4>
-                    <p>${workInfo.prDesc}</p>
+                    <h4>${workInfo7.prTitle1}</h4>
+                    <p>${workInfo7.prDesc}</p>
                     <ul>
-                        <li>${workInfo.techList[0]}</li>
-                        <li>${workInfo.techList[1]}</li>
-                        <li>${workInfo.techList[2]}</li>
+                        <li>${workInfo7.techList[0]}</li>
+                        <li>${workInfo7.techList[1]}</li>
+                        <li>${workInfo7.techList[2]}</li>
                     </ul>
-                    <button type="button" id="seeProject-7">${workInfo.seeProject}</button>
+                    <button type="button" id="seeProject-7">${workInfo7.seeProject}</button>
                 </div>
                 </div>
 
@@ -132,51 +192,51 @@ divSection.innerHTML = `<div class="myworks" id="my-works" class="blur">
 // project iformation goes here as an array of objects
 const projectInfo = [
   {
-    prName: 'Multi Post Stories',
-    prDesc: 'Keeping track of hundreds of components website',
-    techList: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-    backgroundImg: './images/Snapshoot Portfolio.png',
-    pg: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    prName: 'House Agency',
+    prDesc: 'Book a house of your choice',
+    techList: ['HTML', 'CSS', 'Javascript', 'Ruby', 'Ruby on Rails'],
+    backgroundImg: './images/final capstaon.PNG',
+    pg: 'Discover your perfect home with us – where comfort meets affordability. At our agency, we specialize in providing top-quality rental houses at the best prices in the market. Whether you are looking for a cozy apartment or a spacious family house, we have a wide range of options to suit your needs.',
     buttonLive: 'See Live',
-    liveLink: 'https://codewithhyder.github.io/portfolionew/',
+    liveLink: 'https://house-rent-new5.onrender.com/',
     buttonSource: 'See Source',
-    sourceLink: 'https://github.com/codeWithHyder/portfolionew',
+    sourceLink: 'https://github.com/codeWithHyder/house-rent-frontend',
   },
 
   {
-    prName: 'Profesional Art Printing Data',
-    prDesc: 'Profesional Art Printing Data More',
-    techList: ['HTML', 'Javascript', 'Ruby on Rails'],
-    backgroundImg: './images/sm-pr-professional-art1.jfif',
-    pg: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    prName: 'Astronomy Picture of the Day',
+    prDesc: 'pictures of the heavenly body',
+    techList: ['HTML', 'Javascript', 'ES6', 'API', 'Webpack'],
+    backgroundImg: './images/astronomy pic of the day.PNG',
+    pg: '[Astronomy picture of the day] is a web app. for learning APIs, ES6 modules and webpack, and it is a simple website that displays list of name score of different people.',
     buttonLive: 'See Live',
-    liveLink: 'https://codewithhyder.github.io/portfolionew/',
+    liveLink: 'https://codewithhyder.github.io/AstronomyPictureOfTheDay/dist/',
     buttonSource: 'See Source',
-    sourceLink: 'https://github.com/codeWithHyder/portfolionew',
+    sourceLink: 'https://github.com/codeWithHyder/AstronomyPictureOfTheDay',
   },
 
   {
-    prName: 'Profesional Art Printing Data',
-    prDesc: 'Data Dashboard Health care',
+    prName: 'Space Travellers',
+    prDesc: 'Space Travellers-To explore the nature',
     techList: ['HTML', 'Bootstrap', 'React'],
-    backgroundImg: './images/sm-pr-professional-art2.webp',
-    pg: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    backgroundImg: './images/space travellers.PNG',
+    pg: 'Space Travelers\' Hub is a simple Project built through react npx create-react-app. User can interact by making reservation for space rockets. In future versions there is going to add more features to the website version of Space Travelers Hub Project.',
     buttonLive: 'See Live',
-    liveLink: 'https://codewithhyder.github.io/portfolionew/',
+    liveLink: 'https://space-travelers-hub-s77v.onrender.com/',
     buttonSource: 'See Source',
-    sourceLink: 'https://github.com/codeWithHyder/portfolionew',
+    sourceLink: 'https://github.com/codeWithHyder/space-traveler-hub',
   },
 
   {
-    prName: 'Profesional Art Printing Data',
-    prDesc: 'portfolio Website',
-    techList: ['HTML', 'CSS', 'Ruby on Rails'],
-    backgroundImg: './images/sm-pr-portfolio.png',
-    pg: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    prName: 'To Do List',
+    prDesc: 'To do list',
+    techList: ['HTML', 'CSS', 'React', 'Redux'],
+    backgroundImg: './images/to do list.PNG',
+    pg: '[To Do List] is a web app. for learning ES6 modules and webpack, and it is a simple website that displays a list of To do tasks and allows you to add and remove tasks from that list.',
     buttonLive: 'See Live',
-    liveLink: 'https://codewithhyder.github.io/portfolionew/',
+    liveLink: 'https://codewithhyder.github.io/to-do-list-final/dist/',
     buttonSource: 'See Source',
-    sourceLink: 'https://github.com/codeWithHyder/portfolionew',
+    sourceLink: 'https://github.com/codeWithHyder/to-do-list-final',
   },
 
   {
@@ -192,27 +252,27 @@ const projectInfo = [
   },
 
   {
-    prName: 'SignIn and signUp Demo',
-    prDesc: 'The site gives you knowhow ,how to put sign and sign section as a popup in a website',
+    prName: 'Gurez festival',
+    prDesc: 'Gurez Festival :Every year Civil Administration Bandipore with Tourism Department conducts events regarding border tourism programs, multiple departments take part in the festivals to showcase their skills, products and facilities they provide to boder poeople.',
     techList: ['HTML', 'CSS', 'Javascript'],
-    backgroundImg: './images/sm-pr-login1.jfif',
-    pg: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    backgroundImg: './images/gurez festival.PNG',
+    pg: 'Gurez Festival :Every year Civil Administration Bandipore with Tourism Department conducts events regarding border tourism programs, multiple departments take part in the festivals to showcase their skills, products and facilities they provide to boder poeople.',
     buttonLive: 'See Live',
-    liveLink: 'https://codewithhyder.github.io/logindemo/',
+    liveLink: 'https://codewithhyder.github.io/gurez-festival/',
     buttonSource: 'See Source',
-    sourceLink: 'https://github.com/codeWithHyder/logindemo',
+    sourceLink: 'https://github.com/codeWithHyder/gurez-festival',
   },
 
   {
-    prName: 'Birth Day Reminder',
-    prDesc: 'Keeping track of hundreds of components website',
+    prName: 'Cryptoist',
+    prDesc: '[CRYPTOIST] This project is a SPA built around coingeco\'s Api; it fetches the crypto market\'s data and displays it to the user for informative purposes in well-structured and interactive UI with help of Redux toolkit builtin middle ware Asyncthunk .',
     techList: ['HTML', 'CSS', 'React'],
-    backgroundImg: './images/sm-pr-birthday-reminder.png',
-    pg: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    backgroundImg: './images/criptoist.PNG',
+    pg: '[CRYPTOIST] This project is a SPA built around coingeco\'s Api; it fetches the crypto market\'s data and displays it to the user for informative purposes in well-structured and interactive UI with help of Redux toolkit builtin middle ware Asyncthunk .',
     buttonLive: 'See Live',
-    liveLink: 'https://codewithhyder.github.io/bdayreminder1/',
+    liveLink: 'https://react-reduxtoolkit-capston.onrender.com/',
     buttonSource: 'See Source',
-    sourceLink: 'https://github.com/codeWithHyder/bdayreminder1',
+    sourceLink: 'https://github.com/codeWithHyder/react-capston',
   },
 
 ];
@@ -260,6 +320,8 @@ cardButtonsArray.forEach((buttonItem, index) => {
   <span class="tech-list1">${items.techList[0]}</span>
   <span class="tech-list1">${items.techList[1]}</span>
   <span class="tech-list1">${items.techList[2]}</span>
+  <span class="tech-list1">${items.techList[3]}</span>
+  <span class="tech-list1">${items.techList[4]}</span>
   </div>
   <div class="modal-body" id="modal-body">
   

@@ -114,8 +114,12 @@ form ul li {
   color: #fff;
 }
 
+.details-right1 ul li {
+  margin-left: 0.1rem;
+}
+
 .popup-menu li:not(.cross):hover {
-  background-color: #3c3a39;
+  background-color: #3f3b39;
   transition: ease-in-out 0.5s;
 }
 
@@ -169,7 +173,7 @@ form .contact-ul {
   margin-right: 10rem;
 }
 
-footer ul {
+.ftr {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,7 +181,7 @@ footer ul {
   height: 70px;
   width: 100%;
   background-color: #fdfcfc;
-  border-top: 1px solid;
+  border-top: 2px solid whitesmoke;
 }
 
 .nav-container ul {
@@ -186,12 +190,15 @@ footer ul {
 
 .Johnd {
   margin-top: auto;
-  width: 23%;
-  height: 24px;
-  margin-left: 0.8rem;
+  width: 30%;
+  height: 30px;
+  margin-left: 1rem;
   margin-bottom: 0.5rem;
-  background-image: url("images/logo1.png");
+  font-weight: 900;
+  font-family: sans-serif;
+  font-size: xx-large;
   background-repeat: no-repeat;
+  text-decoration: none;
 }
 
 .menu {
@@ -268,10 +275,10 @@ p {
 .myworks {
   display: flex;
   flex-direction: column;
-  margin-left: 0.3rem;
-  background: #fff;
+  margin-left: 0.5rem;
+  background: #fdfdfd;
   align-items: center;
-  width: 95%;
+  width: 100%;
 }
 
 .work-heading {
@@ -314,16 +321,18 @@ p {
   width: 100%;
   height: 300px;
   margin-left: 0.2rem;
-  background-image: url("images/ImgPlaceholder.png");
   background-repeat: no-repeat;
   background-position: top;
+  border: 1px solid rgb(227, 231, 227);
+  border-radius: 0.5rem;
 }
 
 .details-right1 {
   display: flex;
   flex-direction: column;
   width: 90%;
-  padding-left: 0.2rem;
+
+  /* padding-left: 0.2rem; */
   padding-right: 3.5rem;
 }
 
@@ -347,9 +356,9 @@ p {
 }
 
 .details-right1 ul {
-  float: left;
   list-style-type: none;
-  margin: 0 0 1rem -0.5rem;
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -369,6 +378,7 @@ button {
   background-color: #ff6b00;
   color: #fff;
   transition-duration: 2s;
+  border-radius: 0.3rem;
 }
 
 .details-right1 .btn {
@@ -392,6 +402,7 @@ form ul li button {
   line-height: 24px;
   font-style: normal;
   color: #fff;
+  border-radius: 0.3rem;
 }
 
 button:hover {
@@ -513,6 +524,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
 }
 
 .bullet {
@@ -754,12 +766,7 @@ form ul li button:hover {
 
   ul li a:hover {
     transition: 0.5s ease-in-out;
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform-origin: center center;
-    font-size: 18px;
-    color: rgb(36, 228, 132);
+    color: rgb(238, 93, 9);
   }
 
   .hero-section {
@@ -910,6 +917,7 @@ form ul li button:hover {
     background-repeat: round;
     float: left;
     padding-bottom: 0.5rem;
+    border-radius: 0.4rem;
   }
 
   .work:hover {
@@ -922,11 +930,13 @@ form ul li button:hover {
     transition: ease-in-out 0.5s;
     float: left;
     padding-bottom: 0;
+
+    /* border: 1px solid green; */
   }
 
   .work ul {
     height: 2.5rem;
-    margin-left: 0.5rem;
+    margin-left: 5rem;
   }
 
   .work button {
@@ -940,6 +950,8 @@ form ul li button:hover {
     flex-direction: row;
     margin-top: 2rem;
     height: auto;
+
+    /* border: 1px solid green; */
   }
 
   .modal-body .modalbody-left {
@@ -949,9 +961,11 @@ form ul li button:hover {
   }
 
   .modalbody-left img {
-    width: 100%;
+    width: 98%;
     height: 100%;
     padding-left: 0;
+    border-radius: 1rem;
+    border: 1px solid whitesmoke;
   }
 
   .modal-body .modalbody-right {
@@ -1053,6 +1067,10 @@ form ul li button:hover {
     margin-left: 2rem;
   }
 
+  .aboutme-left .gr a {
+    text-decoration: none;
+  }
+
   .aboutme-right {
     width: 60%;
     height: 30rem;
@@ -1086,8 +1104,11 @@ form ul li button:hover {
   /* ----------------------------------- contact form----------------------------------------------------------------------------- */
   form ul .contact-left {
     display: flex;
+    flex-direction: column;
     margin-bottom: 15rem;
-    width: 40%;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: justify;
   }
 
   form ul .contact-right {
@@ -1100,5 +1121,11 @@ form ul li button:hover {
   .contact-right li input,
   textarea {
     padding-left: 0.5rem;
+  }
+
+  .ftr {
+    color: rgb(12, 12, 11);
+    background-color: rgb(190, 185, 185);
+    z-index: -1;
   }
 }
