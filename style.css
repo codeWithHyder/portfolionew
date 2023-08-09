@@ -403,6 +403,7 @@ form ul li button {
   font-style: normal;
   color: #fff;
   border-radius: 0.3rem;
+  margin-top: 0;
 }
 
 button:hover {
@@ -589,6 +590,7 @@ form ul li textarea {
   font-size: 15px;
   line-height: 24px;
   background: #fbf8f7;
+  margin-bottom: 0;
 }
 
 form ul li button:hover {
@@ -803,7 +805,8 @@ form ul li button:hover {
     display: flex;
     flex-direction: row;
     width: 88%;
-    gap: 2.5rem;
+    column-gap: 2.5rem;
+    row-gap: 0.2rem;
   }
 
   .hero-left ul {
@@ -950,8 +953,6 @@ form ul li button:hover {
     flex-direction: row;
     margin-top: 2rem;
     height: auto;
-
-    /* border: 1px solid green; */
   }
 
   .modal-body .modalbody-left {
@@ -1106,7 +1107,7 @@ form ul li button:hover {
     display: flex;
     flex-direction: column;
     margin-bottom: 15rem;
-    width: 100%;
+    width: 50%;
     font-family: sans-serif;
     text-align: justify;
   }
@@ -1115,6 +1116,8 @@ form ul li button:hover {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-bottom: 0;
+    row-gap: 0;
   }
 
   /* ------------------ to remove eol white space ----------- */
