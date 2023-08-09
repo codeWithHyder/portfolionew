@@ -104,7 +104,7 @@ Clone this repository to your desired folder:
 ### Deployment
 
 You can deploy this project using:
-[LIVE DEMO]('https://codewithhyder.github.io/portfolionew/')
+[LIVE DEMO](https://codewithhyder.github.io/portfolionew/)
 
 
 github
