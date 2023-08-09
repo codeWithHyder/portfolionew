@@ -27,9 +27,9 @@ function closePopUp() {
 const workInfo1 = {
   myRecentPr: 'My Recent Projects',
   seeProject: 'See Project',
-  bgImg: './images/final capstaon.PNG',
+  bgImg: './images/final capston 1.PNG',
   prTitle1: 'House Agency- A personalised choice',
-  prTitle2: 'House Agency',
+  prTitle2: 'Home Agency',
   prDesc: 'Discover your perfect home with us – where comfort meets affordability. At our agency, we specialize in providing top-quality rental houses at the best prices in the market. Whether you are looking for a cozy apartment or a spacious family house, we have a wide range of options to suit your needs.',
   techList: ['HTML', 'CSS', 'Javascript', 'React & Redux', 'Ruby On rails'],
 };
@@ -114,7 +114,6 @@ divSection.innerHTML = `<div class="myworks" id="my-works" class="blur">
                         <li>${workInfo1.techList[1]}</li>
                         <li>${workInfo1.techList[2]}</li>
                         <li>${workInfo1.techList[3]}</li>
-                        <li>${workInfo1.techList[4]}</li>
                     </ul>
                     <button class="btn" type="button" id="seeProject-1">${workInfo1.seeProject}</button>
                 </div>
@@ -195,7 +194,7 @@ const projectInfo = [
     prName: 'House Agency',
     prDesc: 'Book a house of your choice',
     techList: ['HTML', 'CSS', 'Javascript', 'Ruby', 'Ruby on Rails'],
-    backgroundImg: './images/final capstaon.PNG',
+    backgroundImg: './images/final capston 1.PNG',
     pg: 'Discover your perfect home with us – where comfort meets affordability. At our agency, we specialize in providing top-quality rental houses at the best prices in the market. Whether you are looking for a cozy apartment or a spacious family house, we have a wide range of options to suit your needs.',
     buttonLive: 'See Live',
     liveLink: 'https://house-rent-new5.onrender.com/',
