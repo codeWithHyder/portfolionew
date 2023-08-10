@@ -16,10 +16,13 @@ main {
 
 header {
   width: 100%;
+  height: 48px;
   background: #3d3b3a;
   display: flex;
   justify-content: center;
   height: auto;
+  position: fixed;
+  z-index: 1;
 }
 
 .nav-container {
@@ -30,7 +33,8 @@ header {
   justify-content: space-between;
   background: #3c3a39;
   position: fixed;
-  z-index: 2;
+  z-index: 1;
+  top: 0;
 }
 
 .popup-menu {
@@ -745,7 +749,9 @@ form ul li button:hover {
   }
 
   .nav-container {
+    position: sticky;
     width: 100%;
+    top: 0;
   }
 
   .nav-container ul {
