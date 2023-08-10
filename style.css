@@ -15,7 +15,7 @@ main {
 }
 
 header {
-  width: 90%;
+  width: 100%;
   background: #3d3b3a;
   display: flex;
   justify-content: center;
@@ -742,6 +742,10 @@ form ul li button:hover {
 
   .menu {
     display: none;
+  }
+
+  .nav-container {
+    width: 100%;
   }
 
   .nav-container ul {
