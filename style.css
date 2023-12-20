@@ -32,7 +32,7 @@ header {
   display: flex;
   justify-content: space-between;
   background: #3c3a39;
-  position: fixed;
+  /* position: fixed; */
   z-index: 1;
   top: 0;
 }
@@ -206,6 +206,42 @@ form .contact-ul {
   font-size: xx-large;
   background-repeat: no-repeat;
   text-decoration: none;
+  transform-origin: center;
+  animation:   logo 6s infinite;
+  /* position: relative; */
+}
+
+@keyframes logo {
+
+  0%{
+    transform: scaleY(.5);
+    color: rgb(231, 136, 46);
+  }
+
+  10%{
+    transform: scaleY(1);
+    color: white;
+  }
+
+  30%{
+    transform: scaleY(1.5);
+    color: green;
+  }
+    30% {
+      transform: scaleY(1.6);
+      color: rgb(94, 212, 100);
+    }
+
+    60%{
+      transform: scaleY(1.7);
+        color: rgb(78, 199, 41);
+    }
+    60% {
+      transform: scaleY(2);
+      color: rgb(223, 74, 15);
+    }
+    
+  
 }
 
 .menu {
@@ -773,14 +809,14 @@ form ul li button:hover {
     color: #fff;
   }
 
-  .Johnd:hover {
+   .Johnd:hover { 
     transform: scaleX(1);
     width: 5rem;
     height: 1.5rem;
     border-radius: 2rem;
     padding-top: 0.3rem;
     transition: all 0.5s ease-in;
-  }
+  } 
 
   ul li a:hover {
     transition: 0.5s ease-in-out;
