@@ -214,33 +214,33 @@ form .contact-ul {
 
 @keyframes logo {
   0% {
-    transform: scaleY(0.5);
+    /* transform: translate(0.5); */
     color: rgb(231, 136, 46);
   }
 
   10% {
-    transform: scaleY(1);
+    /* transform: translate(1); */
     color: white;
   }
 
   30% {
-    transform: scaleY(1.5);
-    color: green;
+    /* transform: translate(1.5); */
+    color: rgb(214, 186, 28);
   }
 
   30% {
-    transform: scaleY(1.6);
-    color: rgb(94, 212, 100);
+    /* transform: translate(1.6); */
+    color: rgb(182, 17, 223);
   }
 
   60% {
-    transform: scaleY(1.7);
-    color: rgb(78, 199, 41);
+    /* transform: translate(1.7); */
+    color: rgb(62, 235, 10);
   }
 
-  60% {
-    transform: scaleY(2);
-    color: rgb(223, 74, 15);
+  100% {
+    /* transform: translate(0); */
+    color: rgb(236, 75, 12);
   }
 }
 
