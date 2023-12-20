@@ -15,19 +15,26 @@ main {
 }
 
 header {
-  background: #3c3a39;
+  width: 100%;
+
+  /* height: 48px; */
+  background: #3d3b3a;
   display: flex;
   justify-content: center;
   height: auto;
+  position: fixed;
+  z-index: 1;
 }
 
 .nav-container {
-  width: 100%;
+  width: 90%;
   height: 48px;
-  padding: 1em 0;
+  padding: 1em 2rem;
   display: flex;
   justify-content: space-between;
   background: #3c3a39;
+  z-index: 1;
+  top: 0;
 }
 
 .popup-menu {
@@ -199,6 +206,42 @@ form .contact-ul {
   font-size: xx-large;
   background-repeat: no-repeat;
   text-decoration: none;
+  transform-origin: center;
+  animation: logo 6s infinite;
+
+  /* position: relative; */
+}
+
+@keyframes logo {
+  0% {
+    transform: scaleY(0.5);
+    color: rgb(231, 136, 46);
+  }
+
+  10% {
+    transform: scaleY(1);
+    color: white;
+  }
+
+  30% {
+    transform: scaleY(1.5);
+    color: green;
+  }
+
+  30% {
+    transform: scaleY(1.6);
+    color: rgb(94, 212, 100);
+  }
+
+  60% {
+    transform: scaleY(1.7);
+    color: rgb(78, 199, 41);
+  }
+
+  60% {
+    transform: scaleY(2);
+    color: rgb(223, 74, 15);
+  }
 }
 
 .menu {
@@ -612,7 +655,7 @@ form ul li button:hover {
   transform: translate(-50%, -50%) scale(1);
   transition: 0.7s ease-in-out;
   width: 90vw;
-  height: 90vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   z-index: 10;
@@ -688,24 +731,24 @@ form ul li button:hover {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
-  height: auto;
+  height: 75vh;
 }
 
 .modal-body .modalbody-left {
   width: 100%;
-  height: auto;
+  height: 10rem;
 }
 
 .modalbody-left img {
   width: 100%;
-  height: 100%;
+  height: 120%;
   padding-left: 0;
 }
 
 .modal-body .modalbody-right {
   width: 100%;
-  height: auto;
-  margin-top: 1.5rem;
+  height: 12rem;
+  margin-top: 2.5rem;
   color: #344563;
   text-align: justify;
 }
@@ -716,6 +759,7 @@ form ul li button:hover {
   justify-content: center;
   column-gap: 0.5em;
   width: 100%;
+  height: 20rem;
   margin-top: 1rem;
   margin-left: 0;
 }
@@ -740,9 +784,17 @@ form ul li button:hover {
     display: none;
   }
 
+  .nav-container {
+    position: sticky;
+    width: 100%;
+    top: 0;
+  }
+
   .nav-container ul {
     display: flex;
     margin-right: 3rem;
+
+    /* position: fixed; */
   }
 
   .nav-container ul li a {
@@ -963,7 +1015,7 @@ form ul li button:hover {
 
   .modalbody-left img {
     width: 98%;
-    height: 100%;
+    height: 28rem;
     padding-left: 0;
     border-radius: 1rem;
     border: 1px solid whitesmoke;
@@ -990,9 +1042,9 @@ form ul li button:hover {
     display: flex;
     margin-left: 0;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
     height: auto;
-    padding-top: 20rem;
+    padding-top: 5rem;
   }
 
   .modal-source-live .livebtn,
